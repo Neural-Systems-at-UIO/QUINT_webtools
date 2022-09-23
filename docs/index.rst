@@ -4,6 +4,8 @@ QUINT web-tools
 .. toctree::
    :caption: Introduction
    :maxdepth: 3
+   
+   QUINTintro
 
    
 .. toctree::
