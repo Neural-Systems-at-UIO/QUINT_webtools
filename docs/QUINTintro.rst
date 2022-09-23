@@ -2,7 +2,7 @@
 ==================
 
 .. tip::   
-   The QUINT workflow is now available in the EBRAINS Collaboratory as a suite of web-based tools accessible through the Community apps. 
+   The QUINT workflow is available in the EBRAINS Collaboratory as a suite of web-based tools accessible through the Community apps. 
    
    Visit `EBRAINS <https://ebrains.eu/service/quint/>`_ for more information about QUINT.
    
