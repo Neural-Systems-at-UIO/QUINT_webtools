@@ -6,28 +6,26 @@ QUINT web-tools
    :maxdepth: 3
    
    QUINTintro
+   ImageService
 
-   
 .. toctree::
    :caption: Atlas-registration
    :maxdepth: 3
-
-
+   
+   WebAlign
    
 .. toctree::
    :caption: Feature extraction
    :maxdepth: 3
    
-
+   WebIlastik
    
 .. toctree::
    :caption: Analyse
    :maxdepth: 3 
    
-   
-.. toctree::
-   :caption: Quality Control
-   :maxdepth: 3    
+    NutilWeb
+    Meshview
    
 
 
