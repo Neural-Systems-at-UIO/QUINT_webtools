@@ -2,9 +2,9 @@
 ==================
 
 .. tip::   
-   **The QUINT workflow is now accessible as a suite of web-based tools through the Community apps in the EBRAINS collaboratory.** 
+   The QUINT workflow is now accessible as a suite of web-based tools through the Community apps in the EBRAINS collaboratory. 
    
-   Visit** `EBRAINS <https://ebrains.eu/service/quint/>`_ for more information about QUINT.
+   Visit `EBRAINS <https://ebrains.eu/service/quint/>`_ for more information about QUINT.
    
 QUINT is a workflow that supports atlas-based quantification of labelled features in series of histological images from mouse or rat brain. It generates counts and percentage coverage per atlas-region, in addition to point clouds for visualising the features in 3D. It currently supports quantification relative to the following atlases:
 
