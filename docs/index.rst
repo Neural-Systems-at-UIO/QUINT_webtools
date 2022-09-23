@@ -1,4 +1,4 @@
-QUINT workflow
+QUINT web-tools
 ====================
 
 .. toctree::
