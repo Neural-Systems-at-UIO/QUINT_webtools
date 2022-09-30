@@ -11,6 +11,8 @@
 * Downloaded from WebAlign using "Export overlays" button. This creates a zipped folder containing flat files and the anchorings.json. 
 
 
+FlatChecker
+
 https://www.nesys.uio.no/FlatChecker/ 
 
 
