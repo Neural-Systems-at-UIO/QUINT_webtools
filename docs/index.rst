@@ -22,11 +22,9 @@ QUINT web-tools
    
 .. toctree::
    :caption: Analyse
-   :maxdepth: 3 
+   :maxdepth: 3
    
-    NutilWeb
-    MeshviewWeb
-   
+   NutilWeb
 
 
 
