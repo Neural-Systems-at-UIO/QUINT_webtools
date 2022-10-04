@@ -24,9 +24,6 @@ Segmentations
 * Navigate to this folder for the Segmentation files.
 * Colour refers to the colour assigned to the features in the segmentations. For example, red in the example below. 
 
-.. image:: images_ilastik/
-
-
 
 Atlas files
 ------------
