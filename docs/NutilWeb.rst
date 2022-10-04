@@ -1,6 +1,8 @@
 **NutilWeb**
 ==============
 
+.. image:: images/NutilWeb.PNG
+
 1. Segmentations
 
 * Must comply with _sXXX naming convention
