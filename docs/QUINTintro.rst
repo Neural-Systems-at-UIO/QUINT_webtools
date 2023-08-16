@@ -1,4 +1,4 @@
-**What is QUINT?**
+**What is the QUINT workflow?**
 ==================
 
 .. tip::   
