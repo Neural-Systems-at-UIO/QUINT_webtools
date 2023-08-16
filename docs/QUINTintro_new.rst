@@ -8,9 +8,9 @@ It generates counts and percentage coverage per atlas-region (area fraction), in
 2. Waxholm Atlas of the Sprague Dawley rat, version 2, 3 and 4 (WHS rat brain atlas).
 
 .. tip::   
-   The QUINT workflow is available in the Online Workbench as a suite of web-based tools or offline as a series of downloable tools. 
+   The QUINT workflow is available in the `Online Workbench <https://ebrains-workbench.apps.hbp.eu/>`_ as a suite of web-based tools or offline as a series of downloable tools. Learn more. 
    
-   Visit `EBRAINS <https://ebrains.eu/service/quint/>`_ for more information about QUINT.
+   Learn more `https://neural-systems-at-uio.github.io/>`_. 
  
 
 **How to access the tools?**
