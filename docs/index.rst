@@ -5,7 +5,7 @@ QUINT web-tools
    :caption: Introduction
    :maxdepth: 3
    
-   QUINTintro
+   QUINTintro_new
    ImageService
 
 .. toctree::
