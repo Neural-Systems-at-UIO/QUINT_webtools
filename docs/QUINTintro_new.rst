@@ -19,9 +19,6 @@ It generates counts and percentage coverage per atlas-region (area fraction), in
 1. To access, go to the `Online Workbench <https://ebrains-workbench.apps.hbp.eu/>`_, register for an EBRAINS account and login.
 2. Create a new project, give it a title and simple description. Then "Launch Project".
 3. You are presented with an empty project. It may take some minutes for the storage bucket to load (be patient). 
-
-.. image:: images/Online_workbench_empty_project.PNG
-
 4. Go to "upload files" and select the images to be analysed (files must be named with a unique ID in the file name, e.g. _s0030). 
 
 .. tip::
@@ -29,8 +26,12 @@ It generates counts and percentage coverage per atlas-region (area fraction), in
    they must be named with a unique identifier starting with _s followed by a unique number that corresponds to the section order and spacing in the brain, e.g. _s001, _s003, _s005. Rename the files before they are uploaded to the workbench.  
      
 5. Once the image files are visible in the project, highlight the files corresponding to one brain and press "Create Brain from Selection".
-6. Give the brain an ID (no spaces!) and select the relevant atlas (mouse or rat). Pressing "ok" will create your brain. This takes some time, be patient.
+6. Give the brain an ID (no spaces!) and select the relevant atlas (mouse or rat). It takes time for the brain to process, so be patient.
 
 .. image:: images/CreateBrain.PNG
+
+7. Once your brain is created, you're ready to start analysis. Go to the "apps & analysis" tab. 
+
+.. images:: images/apps.PNG
 
    
