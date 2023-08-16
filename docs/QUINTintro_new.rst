@@ -13,7 +13,7 @@ It generates counts and percentage coverage per atlas-region (area fraction), in
    Visit `EBRAINS <https://ebrains.eu/service/quint/>`_ for more information about QUINT.
  
 
-**How to access the web-based tools?**
+**How to access the tools?**
 ----------------------------------------
 
 1. To access, go to the `Online Workbench <https://ebrains-workbench.apps.hbp.eu/>`_, register for an EBRAINS account and login.
