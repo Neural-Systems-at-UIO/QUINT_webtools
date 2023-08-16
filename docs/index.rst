@@ -2,17 +2,17 @@ QUINT web-tools
 ====================
 
 .. toctree::
-   :caption: Introduction
+   :caption: EBRAINS Online Workbench
    :maxdepth: 3
    
    QUINTintro_new
-   ImageService
 
 .. toctree::
    :caption: Atlas-registration
    :maxdepth: 3
    
    WebAlign
+   WebWarp
    
 .. toctree::
    :caption: Feature extraction
