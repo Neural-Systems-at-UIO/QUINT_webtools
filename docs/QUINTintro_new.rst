@@ -6,7 +6,7 @@ The QUINT workflow supports brain-wide quantification of labelled features in se
 1. Allen Mouse Brain Atlas Common Coordinate Framework version 3 (2017) (CCFv3)
 2. Waxholm Atlas of the Sprague Dawley rat, version 3 and 4 (WHS rat brain atlas).
 
-.. image:: images/QUINT_summary.PNG
+.. image:: images/QUINT_summary_1.PNG
 
 .. tip::   
    The QUINT workflow is available in the `Online Workbench <https://ebrains-workbench.apps.hbp.eu/>`_ as a suite of web-based tools or offline as a series of downloable tools. 
