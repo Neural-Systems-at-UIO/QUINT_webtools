@@ -2,7 +2,7 @@ QUINT web-tools
 ====================
 
 .. toctree::
-   :caption: EBRAINS Online Workbench
+   :caption: Online Workbench
    :maxdepth: 3
    
    QUINTintro_new
