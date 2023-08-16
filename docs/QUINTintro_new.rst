@@ -32,6 +32,6 @@ It generates counts and percentage coverage per atlas-region (area fraction), in
 
 7. Once your brain is created, you're ready to start analysis. Go to the "apps & analysis" tab. 
 
-.. images:: images/apps.PNG
+.. image:: images/apps.PNG
 
    
