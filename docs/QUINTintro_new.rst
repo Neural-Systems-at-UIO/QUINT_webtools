@@ -24,10 +24,9 @@ It generates counts and percentage coverage per atlas-region (area fraction), in
 
 4. Go to "upload files" and select the images to be analysed (files must be named with a unique ID in the file name, e.g. _s0030). 
 
-..tip::
-   Images of brain section corresponding to one brain are analysed together as an image series. For the online tools to place the images in the correct order,
-   they must be named with a unique identifier starting with _s followed by a unique number that correspondis to the sections' order and spacing in the brain, e.g. _s001, _s003, _s005.
-   File must be renamed before they are uploaded to the workbench.  
+.. tip::
+   Images of brain section corresponding to one brain are analysed together in image series. For the online tools to place the images in the correct order,
+   they must be named with a unique identifier starting with _s followed by a unique number that corresponds to the section order and spacing in the brain, e.g. _s001, _s003, _s005. Rename the files before they are uploaded to the workbench.  
      
 5. Once the image files are visible in the project, highlight the files corresponding to one brain and press "Create Brain from Selection".
 6. Give the brain an ID (no spaces!) and select the relevant atlas (mouse or rat). Pressing "ok" will create your brain. This takes some time, be patient.
