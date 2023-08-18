@@ -9,7 +9,7 @@ The QUINT workflow supports brain-wide quantification of labelled features in se
 .. image:: images/QUINT_summary_1.PNG
 
 .. tip::   
-   The QUINT workflow is available in the `Online Workbench <https://ebrains-workbench.apps.hbp.eu/>`_ as a suite of web-based tools or offline as downloable tools. 
+   The QUINT workflow is available in the `Online Workbench <https://ebrains-workbench.apps.hbp.eu/>`_ as a suite of web-based tools or offline as downloable tools.In addition to tighter integration of the tools, the Online Workbench offers a metadata management system, simplified submission to EBRAINS, as well and shareable microscopy viewer links.
 
    `Learn more <https://neural-systems-at-uio.github.io/>`_ 
  
