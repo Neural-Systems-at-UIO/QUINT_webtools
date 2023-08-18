@@ -1,7 +1,7 @@
 **What is the QUINT workflow?**
 ===============================
    
-The QUINT workflow supports brain-wide quantification of labelled features in series of brain sections from mouse or rat brain. The quantification is performed with respect to a reference brain atlas. It generates counts and area fraction in atlas regions, as well as point clouds for visualising the features in 3D atlas space. The following atlases are supported:
+The QUINT workflow supports brain-wide quantification of labelled features in series of brain sections from mouse or rat. The quantification is performed with respect to a reference brain atlas. It generates counts and area fraction in atlas regions, as well as point clouds for visualising the features in 3D atlas space. The following atlases are supported:
 
 1. Allen Mouse Brain Atlas Common Coordinate Framework version 3 (2017) (CCFv3)
 2. Waxholm Atlas of the Sprague Dawley rat, version 3 and 4 (WHS rat brain atlas).
