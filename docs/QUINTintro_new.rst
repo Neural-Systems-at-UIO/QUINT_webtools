@@ -23,7 +23,7 @@ The workflow generates object counts and area fraction in reference atlas region
 
    The Online Workbench offers tighter integration of the tools, shareable viewer links, metadata management and the option to submit directly to `EBRAINS <https://www.ebrains.eu/data/share-data>`_.
 
-**How to access the tools?**
+How to access the tools?
 ----------------------------------------
 
 1. To access, go to the `Online Workbench <https://ebrains-workbench.apps.hbp.eu/>`_, register for an EBRAINS account and login.
@@ -41,10 +41,13 @@ The workflow generates object counts and area fraction in reference atlas region
 
 .. image:: images/CreateBrain.PNG
 
-7. Once your brain is visible in "Prepared Brains", you're ready to start the analysis. Go to the "apps & analysis" tab and use the tools in turn to register your data to the atlas (WebAlign first, followed by WebWarp), to extract the features to be quantified (WebIlastik), to perform the quantification (NutilWeb) and to view and explore your results (MeshView). For instructions on how to use the tools, see the individual tools' pages.  
+7. Once your brain is visible in "Prepared Brains", you're ready to start the analysis. Go to the "apps & analysis" tab and use the tools in turn to register your data to the atlas (WebAlign first, followed by WebWarp), to extract the features to be quantified (WebIlastik), to perform the quantification (NutilWeb) and to view and explore your results (MeshView).  
 
 .. image:: images/apps.PNG
 
+How do I use the tools? 
+------------------------
 
+See the pages for each tool for user instructions.  
 
    
