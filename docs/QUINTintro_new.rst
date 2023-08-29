@@ -14,7 +14,7 @@ The analysis is performed relative to a reference brain atlas, with the followin
 What is the output of the tools?
 ---------------------------------
 
-The workflow generates object counts and area fractio in reference atlas regions, as well as 3D point clouds that can be used to visualise the features-of-interest in atlas space with our Meshview Atlas Viewer.  
+The workflow generates object counts and area fraction in reference atlas regions, as well as 3D point clouds that can be used to visualise the features-of-interest in atlas space with our Meshview Atlas Viewer.  
 
 .. image:: images/QUINT_summary_1.PNG
 
