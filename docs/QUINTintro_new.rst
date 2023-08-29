@@ -41,7 +41,7 @@ The workflow generates object counts and area fraction in reference atlas region
 
 .. image:: images/CreateBrain.PNG
 
-7. Once your brain is visible in "Prepared Brains", you're ready to start the analysis. Go to the "apps & analysis" tab. 
+7. Once your brain is visible in "Prepared Brains", you're ready to start the analysis. Go to the "apps & analysis" tab and use the tools in turn to register your data to the atlas (WebAlign first, followed by WebWarp), to extract the features to be quantified (WebIlastik), to perform the quantification (NutilWeb) and to view and explore your results (MeshView).
 
 .. image:: images/apps.PNG
 
