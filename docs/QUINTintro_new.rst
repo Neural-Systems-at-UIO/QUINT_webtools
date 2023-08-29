@@ -3,6 +3,8 @@
    
 The QUINT workflow is an analysis solution for 2D rodent microscopy data, answering the need for brain-wide mapping and regional quantification. The workflow is used to quantify cells and establish maps of cell distribution, receptor densities, connectivity patterns or pathological protein accumulation in the brain. 
 
+.. image:: images/QUINT_summary_1.PNG
+
 Which atlases are supported?
 ------------------------------
 
@@ -14,9 +16,7 @@ The analysis is performed relative to a reference brain atlas, with the followin
 What is the output of the tools?
 ---------------------------------
 
-The workflow generates object counts and area fraction in reference atlas regions, as well as 3D point clouds that can be used to visualise the features-of-interest in atlas space with our Meshview Atlas Viewer.  
-
-.. image:: images/QUINT_summary_1.PNG
+The workflow generates object counts and area fraction in reference atlas regions, in addition to point clouds that can be used to visualise the features-of-interest in 3D atlas space with our Meshview Atlas Viewer.  
 
 .. tip::   
    The `QUINT workflow <https://neural-systems-at-uio.github.io/>`_ is available in the Online Workbench as a suite of web-based tools or offline as downloable tools.
