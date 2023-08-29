@@ -1,7 +1,12 @@
 **What is the QUINT workflow?**
 ===============================
    
-The QUINT workflow is an analysis solution for 2D rodent microscopy data, answering the need for brain-wide mapping and regional quantification. The workflow is used to quantify cells and establish maps of cell distribution, receptor densities, connectivity patterns or pathological protein accumulation in the brain. The analysis is performed relative to a reference brain atlas, with the following atlases supported:
+The QUINT workflow is an analysis solution for 2D rodent microscopy data, answering the need for brain-wide mapping and regional quantification. The workflow is used to quantify cells and establish maps of cell distribution, receptor densities, connectivity patterns or pathological protein accumulation in the brain. 
+
+Which atlases are supported?
+------------------------------
+
+The analysis is performed relative to a reference brain atlas, with the following atlases supported:
 
 1. Allen Mouse Brain Atlas Common Coordinate Framework version 3 (2017) (CCFv3)
 2. Waxholm Atlas of the Sprague Dawley rat, version 3 and 4 (WHS rat brain atlas).
