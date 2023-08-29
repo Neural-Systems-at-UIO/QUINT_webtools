@@ -20,6 +20,8 @@ What is the output of the tools?
 
 The workflow generates object counts and area fraction in reference atlas regions, in addition to point clouds that can be used to visualise the features-of-interest in 3D atlas space with our Meshview Atlas Viewer.  
 
+.. image:: images/results.PNG
+
 .. tip::   
    The `QUINT workflow <https://neural-systems-at-uio.github.io/>`_ is available in the Online Workbench as a suite of web-based tools or offline as downloable tools.
 
