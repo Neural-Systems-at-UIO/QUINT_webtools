@@ -13,6 +13,8 @@ The analysis is performed relative to a reference brain atlas, with the followin
 1. Allen Mouse Brain Atlas Common Coordinate Framework version 3 (2017) (CCFv3)
 2. Waxholm Atlas of the Sprague Dawley rat, version 3 and 4 (WHS rat brain atlas).
 
+.. image:: images/atlases.PNG
+
 What is the output of the tools?
 ---------------------------------
 
