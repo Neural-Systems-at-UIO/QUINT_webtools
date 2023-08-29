@@ -31,7 +31,7 @@ How to access the tools?
 ----------------------------------------
 
 1. To access, go to the `Online Workbench <https://ebrains-workbench.apps.hbp.eu/>`_, register for an EBRAINS account and login.
-2. Create a new project, give it a title and simple description. Then "Launch Project".
+2. Create a new project, give it a title and simple description. Then "Launch Project"
 3. You are presented with an empty project. It may take some minutes for the storage bucket to load (be patient). 
 4. Go to "upload files", select the images to be analysed. Files must be named with a unique ID before they are uploaded, e.g. _s0030. See the tip below. 
 
