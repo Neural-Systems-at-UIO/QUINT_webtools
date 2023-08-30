@@ -8,8 +8,105 @@ WebAlign is a tool for spatial registration of serial brain section images to re
 Start the registration
 -------------------------
 
-The main window shows the selected image with the atlas overlay.
+1. The main window shows the selected image with the atlas overlay.
 
 .. tip:: If necessary, change the atlas from coronal view to sagittal or horizontal view (see Navigation panel below).
+
+2. Move the cutting plane through the atlas to the approximate position of your section using the yellow dots in the sagittal, horizontal and coronal viewer windows in the navigation panel.
+
+3. Start anchoring by placing a marker with the "Space bar". It is initially a cross and is the fix point of (most) transformations. The "Escape key" can be used to remove the marker.
+
+4. The main window supports mouse drag in multiple modes in order to stretch the atlas and find the correct position.
+
+
+If there is no marker, or the marker is a cross, mouse drag slides the cut in its plane (translation).
+
+.. note::
+  The panel can be resized towards the left (common border with Control Panel) and towards the bottom (common border with Filmstrip).
+
+5. Save the position by pressing "Store". The registration is copied to the remaining slides to help with scaling (visible also in the filmstrip)
+
+6. Go through all sections and refine position and cutting angles.
+
+.. note::
+  When jumping from one section to the other, wait a few seconds for the image to load
+
+.. note::
+  The "restore" button allows you to go back to the saved position if necessary
+
+7. Save your results in the descriptor file (.waln) by pressing "Save to bucket".
+
+8. When the registration is finished, you can export your descriptor files ( .seg files used for analysis in the QUINT workflow) by pressing "export overlays". All results are zipped and stored in the bucket. The result file name will be the same as the one chosen to create the registration, e.g. "my-registration.zip".
+
+**Short keys**
+----------------
+.. list-table:: 
+   :widths: 25 25 50
+   :header-rows: 1
+
+   * - **To do this**   
+     - **Press**  
+     - **Description** 
+   * -   Place marker     
+     -   Space bar 
+     -   Markers are the anchor points of most transformations (stretch and rotate)    
+   * -   Remove marker
+     -   Esc
+     -   Removes a previously placed marker 
+   * -   Horizontal stretch from maker 
+     -   Left/Right arrow keys 
+     -   Marker becomes a vertical line, mouse drag horizontally resizes the cut
+   * -   Vertical stretch from maker
+     -   Up/Down arrow keys
+     -   Marker becomes a horizontal line, mouse drag vertically resizes the cut
+   * -   Rotate around marker  
+     -   PgUp/PgDown	
+     -   Marker becomes a cross with a surrounding arc, mouse drag rotates the cut
+   * -   In plane adjust   
+     -   Click + drag   
+     -   If there is no marker, or the marker is a cross, mouse drag slides the cut in its plane (translation)
+
+
+**Control panel**
+------------------------
+.. list-table:: 
+   :widths: 25 50
+   :header-rows: 1
+   
+   * - **Button**   
+     - **Function**  
+   * -   Store     
+     -   Store the current alignment and propagate to unaligned sections (Note this does not save the series to your bucket)
+   * -   Restore 
+     -   Reset the current alignment to the last stored position
+   * -   Clear
+     -   Reset the current alignment to the default position
+   * -   Overlay Slider
+     -   Opacity of the atlas overlay, when fully opaque, it becomes an outline
+   * -   Overlay color
+     -   The outline color
+   * -   Filmstrip slider and color
+     -   The above settings, applied to the filmstrip
+   * -   Save to bucket
+     -   Save the series to your bucket (and overwrite the existing file)
+   * -   Export overlays
+     -   Generates a series of .flat files (for Nutil or similar utility), and stores them into a .zip file in the bucket (re-using the name of the series descriptor, e.g. series13.json will export series13.zip)
+     
+.. note:: 
+ The right border of the control panel can be dragged horizontally, allowing to resize the panel and the main view
+
+**Filmstrip**
+--------------
+Drag horizontally to see series, click on a section in order to load it into the main view. The top border of the filmstrip can be dragged vertically, allowing to resize the panel and the main view
+
+**Navigation panel**
+----------------------
+Shows the three standard planes centered around the midpoint of the current alignment visible in the main view.
+
+The rectangle of the current cut is projected on each standard plane as a yellow line/rectangle/parallelogram. A small yellow circle represents the midpoint of the projection.
+
+Drag the midpoint around to move the cut.
+
+Drag anywhere else to rotate the cut (inside the given standard plane, around the midpoint)
 
 https://webalign.readthedocs.io/en/latest/
