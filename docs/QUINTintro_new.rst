@@ -5,6 +5,11 @@ The QUINT workflow is an analysis solution for 2D rodent microscopy data, answer
 
 .. image:: images/QUINTsummary_2.PNG
 
+.. tip::   
+   The `QUINT workflow <https://neural-systems-at-uio.github.io/>`_ is available in the Online Workbench as a suite of web-based tools or offline as downloable tools.
+
+   The Online Workbench offers tighter integration of the tools, shareable viewer links, metadata management and the option to submit directly to `EBRAINS <https://www.ebrains.eu/data/share-data>`_.
+
 Which atlases are supported?
 ------------------------------
 
@@ -21,11 +26,6 @@ What is the output of the tools?
 The workflow generates object counts and area fraction in reference atlas regions, in addition to point clouds that can be used to visualise the features-of-interest in 3D atlas space with our Meshview Atlas Viewer.  
 
 .. image:: images/results.PNG
-
-.. tip::   
-   The `QUINT workflow <https://neural-systems-at-uio.github.io/>`_ is available in the Online Workbench as a suite of web-based tools or offline as downloable tools.
-
-   The Online Workbench offers tighter integration of the tools, shareable viewer links, metadata management and the option to submit directly to `EBRAINS <https://www.ebrains.eu/data/share-data>`_.
 
 How to access the tools?
 ----------------------------------------
