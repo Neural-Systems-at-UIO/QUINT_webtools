@@ -7,13 +7,13 @@ Once you are logged in to the Online Workbench you are ready to start your analy
 Are there any image requirements?
 ----------------------------------
 
-1. Images in TIFF, JPG or PNG format that display the brain sections can be used in the tools. 
-2. To be compatible with the tools, each image files must be named with a unique ID before it is are uploaded to the Online Workbench, e.g. _s0030. See the tip below.
+1. Images in TIFF, JPG or PNG format displaying the brain sections can be used in the tools. 
+2. To be compatible with the tools, the image files must be named with a unique ID before they are uploaded to the Online Workbench, e.g. _s0030. See the tip below.
 
 .. tip::
    Images of brain section corresponding to one brain are analysed together in an image series. 
 
-   For the images to be placed in the correct order in the tools, they must be named with a unique identifier starting with _s followed by a unique number corresponding to the order and spacing of the section in the brain. For example, _s001, _s003, _s005 for serial sections with every other section missing.
+   For the images to be placed in the correct order in the tools, they must be named with a unique identifier starting with _s followed by a unique number corresponding to the order and spacing of the section in the brain. For example, _s001, _s003, _s005 for serial sections with every other section missing. An example that would work is shown below. 
 
 .. image:: images/NamingConvention.PNG
 
@@ -28,12 +28,13 @@ How do I upload my images?
 
 .. image:: images/CreateBrain.PNG
 
-6. Once your brain is visible in "Prepared Brains", you're ready to start the analysis. Go to the "apps & analysis" tab and use the tools in turn.
+6. Once your brain is visible in "Prepared Brains", you're ready to start the analysis. 
+7. Go to the "apps & analysis" tab and use each of the tools in turn.
 
-* Register your data to the atlas. Use `WebAlign first <https://quint-webtools.readthedocs.io/en/latest/WebAlign.html>_', followed by WebWarp. 
-* Extract the features to be quantified. Use WebIlastik. 
-* Perform the quantification. Use NutilWeb. 
-* View and explore your results. Use MeshView.  
+* Register your data to the atlas. Use `WebAlign <https://quint-webtools.readthedocs.io/en/latest/WebAlign.html>`_ first, followed by `WebWarp <https://quint-webtools.readthedocs.io/en/latest/WebWarp.html>`_. 
+* Extract the features to be quantified. Use `WebIlastik <https://quint-webtools.readthedocs.io/en/latest/WebIlastik.html>`_. 
+* Perform the quantification. Use `NutilWeb <https://quint-webtools.readthedocs.io/en/latest/NutilWeb.html>`_. 
+* View and explore your results. Use `MeshView <https://quint-webtools.readthedocs.io/en/latest/MeshviewWeb.html>`_..  
 
 .. image:: images/apps.PNG  
 
