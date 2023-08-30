@@ -62,4 +62,5 @@ html_logo = "ebrains_logo.png"
 html_theme_options = {
     'logo_only': True,
     'display_version': False,
+    'logo_url': "https://ebrains.eu",
 }
