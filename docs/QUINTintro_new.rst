@@ -31,27 +31,5 @@ How to access the tools?
 ----------------------------------------
 
 1. To access, go to the `Online Workbench <https://ebrains-workbench.apps.hbp.eu/>`_, register for an EBRAINS account and login.
-2. Create a new project, give it a title and simple description. Then "Launch Project"
-3. You are presented with an empty project. It may take some minutes for the storage bucket to load (be patient). 
-4. Go to "upload files", select the images to be analysed. Files must be named with a unique ID before they are uploaded, e.g. _s0030. See the tip below. 
+2. You are now ready for the first step in the workflow: Upload your images. 
 
-.. tip::
-   Images of brain section corresponding to one brain are analysed together in an image series. 
-
-   For the images to be placed in the correct order in the tools, they must be named with a unique identifier starting with _s followed by a unique number that corresponds to the section order and spacing in the brain. For example, _s001, _s003, _s005 for serial sections with every other section missing. Rename the files before they are uploaded to the workbench.  
-     
-5. Once the image files are visible in the project, highlight the files corresponding to one brain and press "Create Brain from Selection".
-6. Give the brain an ID (no spaces!) and select the relevant atlas (mouse or rat). It takes time for the brain series to be created, so be patient.
-
-.. image:: images/CreateBrain.PNG
-
-7. Once your brain is visible in "Prepared Brains", you're ready to start the analysis. Go to the "apps & analysis" tab and use the tools in turn to register your data to the atlas (WebAlign first, followed by WebWarp), to extract the features to be quantified (WebIlastik), to perform the quantification (NutilWeb) and to view and explore your results (MeshView).  
-
-.. image:: images/apps.PNG
-
-How do I use the tools? 
-------------------------
-
-See the pages for each tool for user instructions.  
-
-   
