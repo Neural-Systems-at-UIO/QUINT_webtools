@@ -62,5 +62,5 @@ html_logo = "General_logo_Landscape_Color.svg"
 html_theme_options = {
     'logo_only': True,
     'display_version': False,
-    'logo_url': "https://ebrains.eu",
+    'logo_url': "https://ebrains.eu"
 }
