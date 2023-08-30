@@ -31,5 +31,5 @@ How to access the tools?
 ----------------------------------------
 
 1. To access, go to the `Online Workbench <https://ebrains-workbench.apps.hbp.eu/>`_, register for an EBRAINS account and login.
-2. You are now ready for the first step in the workflow: Upload your images. 
+2. You are now ready for the first step in the workflow. `Upload files <https://quint-webtools.readthedocs.io/en/latest/CreateBrain.html>`_. 
 
