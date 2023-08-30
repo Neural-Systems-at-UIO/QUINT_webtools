@@ -29,12 +29,12 @@ How do I upload my images?
 .. image:: images/CreateBrain.PNG
 
 6. Once your brain is visible in "Prepared Brains", you're ready to start the analysis. 
-7. Go to the "apps & analysis" tab and use each of the tools in turn.
+7. Go to the "apps & analysis" tab and use each tool in turn.
 
 * Register your data to the atlas. Use `WebAlign <https://quint-webtools.readthedocs.io/en/latest/WebAlign.html>`_ first, followed by `WebWarp <https://quint-webtools.readthedocs.io/en/latest/WebWarp.html>`_. 
 * Extract the features to be quantified. Use `WebIlastik <https://quint-webtools.readthedocs.io/en/latest/WebIlastik.html>`_. 
 * Perform the quantification. Use `NutilWeb <https://quint-webtools.readthedocs.io/en/latest/NutilWeb.html>`_. 
-* View and explore your results. Use `MeshView <https://quint-webtools.readthedocs.io/en/latest/MeshviewWeb.html>`_..  
+* View and explore your results. Use `MeshView <https://quint-webtools.readthedocs.io/en/latest/MeshviewWeb.html>`_.
 
 .. image:: images/apps.PNG  
 
