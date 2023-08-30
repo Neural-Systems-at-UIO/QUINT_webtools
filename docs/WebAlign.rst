@@ -3,38 +3,37 @@
 
 WebAlign is a tool for spatial registration of serial brain section images to reference 3D atlases. Different experimental datasets registered to the same reference atlas allows you to spatially integrate, analyse and navigate these datasets within a standardised coordinate system. 
 
-.. image:: images/WebAlign.png
-
 Start the registration
 -------------------------
 
 1. The main window shows the selected image with the atlas overlay.
 
-.. tip:: If necessary, change the atlas from coronal view to sagittal or horizontal view (see Navigation panel below).
+.. image:: images/WebAlign.png
 
-2. Move the cutting plane through the atlas to the approximate position of your section using the yellow dots in the sagittal, horizontal and coronal viewer windows in the navigation panel.
+.. tip:: If necessary, change the atlas from coronal view to sagittal or horizontal view.
+
+2. Move the cutting plane through the atlas to the approximate position of your section using the yellow dots in the sagittal, horizontal and coronal viewer windows.
 
 3. Start anchoring by placing a marker with the "Space bar". It is initially a cross and is the fix point of (most) transformations. The "Escape key" can be used to remove the marker.
 
 4. The main window supports mouse drag in multiple modes in order to stretch the atlas and find the correct position.
 
-
-If there is no marker, or the marker is a cross, mouse drag slides the cut in its plane (translation).
+5.If there is no marker, or the marker is a cross, mouse drag slides the cut in its plane (translation).
 
 .. note::
   The panel can be resized towards the left (common border with Control Panel) and towards the bottom (common border with Filmstrip).
 
-5. Save the position by pressing "Store". The registration is copied to the remaining slides to help with scaling (visible also in the filmstrip)
+6. Save the position by pressing "Save". The registration is copied to the remaining slides to help with scaling (visible also in the filmstrip)
 
-6. Go through all sections and refine position and cutting angles.
-
-.. note::
-  When jumping from one section to the other, wait a few seconds for the image to load
+7. Go through all sections and refine position and cutting angles.
 
 .. note::
-  The "restore" button allows you to go back to the saved position if necessary
+  When jumping from one section to the other, wait a few seconds for the image to load.
 
-7. Save your results in the descriptor file (.waln) by pressing "Save to bucket".
+.. note::
+  The "undo" button allows you to go back to the saved position if necessary.
+
+7. Save your results in the descriptor file (.waln) by pressing "Save".
 
 8. When the registration is finished, you can export your descriptor files ( .seg files used for analysis in the QUINT workflow) by pressing "export overlays". All results are zipped and stored in the bucket. The result file name will be the same as the one chosen to create the registration, e.g. "my-registration.zip".
 
