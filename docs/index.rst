@@ -8,6 +8,12 @@ QUINT web-tools
    QUINTintro_new
 
 .. toctree::
+   :caption: Upload files
+   :maxdepth: 3
+
+   CreateBrain
+
+.. toctree::
    :caption: Atlas-registration
    :maxdepth: 3
    
