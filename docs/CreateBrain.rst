@@ -30,7 +30,7 @@ How do I upload my images?
 
 6. Once your brain is visible in "Prepared Brains", you're ready to start the analysis. Go to the "apps & analysis" tab and use the tools in turn.
 
-* Register your data to the atlas. Use WebAlign first, followed by WebWarp. 
+* Register your data to the atlas. Use `WebAlign first <https://quint-webtools.readthedocs.io/en/latest/WebAlign.html>_', followed by WebWarp. 
 * Extract the features to be quantified. Use WebIlastik. 
 * Perform the quantification. Use NutilWeb. 
 * View and explore your results. Use MeshView.  
