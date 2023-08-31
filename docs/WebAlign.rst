@@ -3,15 +3,15 @@
 
 WebAlign is a tool for spatial registration of serial section images to a 3D reference brain atlas. Different experimental datasets can be registered to the same reference atlas allowing you to spatially integrate, analyse and navigate the datasets within a standardised coordinate system. 
 
-How to access WebAlign?
+How to open WebAlign?
 ------------------------
 
 In "Apps & Analysis", click "WebAlign" and select the brain image series to register to the atlas. Your images will load in the WebAlign app. 
 
 .. image:: images/WebAlign_updated.PNG
 
-How to register my images?
----------------------------
+How to register my image series?
+--------------------------------
 
 Once a section is registered to the atlas, WebAlign automatically estimates the position of remaining section within the atlas based on the section numbering. It is recommended to register one section in the beginning of the series and one section towards the end of the series as the first step to speed up the registration process. 
 
@@ -43,6 +43,8 @@ Once a section is registered to the atlas, WebAlign automatically estimates the 
 7. Save your results in a descriptor file (.waln) by pressing "Save".
 
 8. When the registration is finished, export the atlas overlays with the button in the Control panel. 
+
+9. To make fine adjustments to the registration, open the image series in `WebWarp <https://quint-webtools.readthedocs.io/en/latest/WebWarp.html>`_. 
 
 Short keys
 ----------------
@@ -105,7 +107,7 @@ Filmstrip
 --------------
 Drag horizontally to see series, click on a section in order to load it into the main view. The top border of the filmstrip can be dragged vertically, allowing to resize the panel and the main view
 
-**Navigation panel**
+Navigation panel
 ----------------------
 Shows the three standard planes centered around the midpoint of the current alignment visible in the main view.
 
