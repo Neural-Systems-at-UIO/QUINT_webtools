@@ -1,26 +1,28 @@
 **WebAlign**
 ============
 
-WebAlign is a tool for spatial registration of serial section images to a 3D reference brain atlas. 
+WebAlign is a tool for spatial registration of serial section images to a 3D reference brain atlas. Different experimental datasets can be registered to the same reference atlas allowing you to spatially integrate, analyse and navigate the datasets within a standardised coordinate system. 
 
-Different experimental datasets can be registered to the same reference atlas allowing you to spatially integrate, analyse and navigate the datasets within a standardised coordinate system. 
-
-How to register my images?
--------------------------
-
-1. The main window shows the selected image with the atlas overlay.
+In "Apps & Analysis", click "WebAlign" and select the brain image series to register to the atlas. Your images will load in the WebAlign app. 
 
 .. image:: images/WebAlign_updated.PNG
 
-.. tip:: If necessary, change the atlas from coronal view to sagittal or horizontal view.
+How to register my images?
+---------------------------
 
-2. Move the cutting plane through the atlas to the approximate position of your section using the yellow dots in the sagittal, horizontal and coronal viewer windows.
+Once a section is registered to the atlas, WebAlign automatically estimates the position of remaining section based on the section numbering. To speed up the registration, it is recommended to register one section in the beginning of the series and one section towards the end of the series as the first step.
 
-3. Start anchoring by placing a marker with the "Space bar". It is initially a cross and is the fix point of (most) transformations. The "Escape key" can be used to remove the marker.
+1. Select an image in the filmstrip. The main window shows the selected image with the atlas overlay.
 
-4. The main window supports mouse drag in multiple modes in order to stretch the atlas and find the correct position.
+.. tip:: If necessary, change the cutting plane of the atlas from coronal to sagittal or horizontal view to match your series using the dropdown in the Control panel.
 
-5.If there is no marker, or the marker is a cross, mouse drag slides the cut in its plane (translation).
+2. To register the section, move the cutting plane through the atlas to the approximate position of the section using the yellow dots in the sagittal, horizontal and coronal viewer windows.
+
+3. The main window supports mouse drag in multiple modes in order to find the correct position and to stretch the atlas. 
+
+* If there is no marker, or the marker is a cross, mouse drag slides the cut in its plane (translation).
+
+* To stretch the atlas overlay, place a marker with the "Space bar". It is initially a cross and is the fix point of transformations. The "Esc key" can be used to remove the marker (in full screen mode the "Esc key" escapes full screen). With a cross in place, press the up and down arrows or left and right arrows to activate stretch mode. Adjust the atlas overlay to match your section. 
 
 .. note::
   The panel can be resized towards the left (common border with Control Panel) and towards the bottom (common border with Filmstrip).
@@ -35,9 +37,9 @@ How to register my images?
 .. note::
   The "undo" button allows you to go back to the saved position if necessary.
 
-7. Save your results in the descriptor file (.waln) by pressing "Save".
+7. Save your results in a descriptor file (.waln) by pressing "Save".
 
-8. When the registration is finished, you can export your descriptor files ( .seg files used for analysis in the QUINT workflow) by pressing "export overlays". All results are zipped and stored in the bucket. The result file name will be the same as the one chosen to create the registration, e.g. "my-registration.zip".
+8. When the registration is finished, export the atlas overlays with the button in the Control panel. 
 
 **Short keys**
 ----------------
