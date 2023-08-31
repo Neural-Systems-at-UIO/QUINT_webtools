@@ -44,6 +44,6 @@ How do I upload my images?
 * Perform the quantification: use `NutilWeb <https://quint-webtools.readthedocs.io/en/latest/NutilWeb.html>`_. 
 * View and explore your results: use `MeshView <https://quint-webtools.readthedocs.io/en/latest/MeshviewWeb.html>`_.
 
-.. image:: images/apps.PNG  
+ 
 
    
