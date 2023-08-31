@@ -14,5 +14,5 @@ It can take anything from seconds to minutes for a session to start. Be patient!
 
 .. image:: images/WebIlastik.PNG
   :align: center
-  :width: 400
+  :width: 500
 
