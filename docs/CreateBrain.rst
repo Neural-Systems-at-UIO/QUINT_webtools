@@ -4,9 +4,7 @@
 
 Once you are logged in to the Online Workbench you are ready to start your analysis. The first step is to upload the images to be analysed. You then combine them into an image series corresponding to one brain using the File Creator app. File Creator also converts the images to the DZIP format required by the tools. 
 
-.. image:: images/Image_series.PNG
-   :align: right
-   :width: 250
+
 
 Are there any image requirements?
 ----------------------------------
@@ -21,6 +19,11 @@ Are there any image requirements?
    For the images to be placed in the correct order in the tools, they must be named with a unique identifier starting with _s followed by a unique number corresponding to the order and spacing of the section in the brain. For example, _s001, _s003, _s005 for serial sections with every other section missing. An example that would work is shown below. 
 
 .. image:: images/NamingConvention.PNG
+   :align: left
+
+.. image:: images/Image_series.PNG
+   :align: right
+   :width: 300
 
 How do I upload my images? 
 ----------------------------
