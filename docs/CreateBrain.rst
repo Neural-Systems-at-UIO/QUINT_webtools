@@ -6,7 +6,7 @@ Once you are logged in to the Online Workbench you are ready to start your analy
 
 .. image:: images/Image_series.PNG
    :align: right
-   :width: 400
+   :width: 300
 
 Are there any image requirements?
 ----------------------------------
