@@ -1,7 +1,9 @@
 **WebAlign**
 ============
 
-WebAlign is a tool for spatial registration of serial brain section images to reference 3D atlases. Different experimental datasets registered to the same reference atlas allows you to spatially integrate, analyse and navigate these datasets within a standardised coordinate system. 
+WebAlign is a tool for spatial registration of serial brain sections to a 3D reference brain atlas. 
+
+Different experimental datasets can be registered to the same reference atlas allowing you to spatially integrate, analyse and navigate the datasets within a standardised coordinate system. 
 
 Start the registration
 -------------------------
