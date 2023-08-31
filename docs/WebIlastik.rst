@@ -16,3 +16,6 @@ It can take anything from seconds to minutes for a session to start. Be patient!
   :align: center
   :width: 500
 
+How to segment your images with WebIlastik?
+-------------------------------------------
+
