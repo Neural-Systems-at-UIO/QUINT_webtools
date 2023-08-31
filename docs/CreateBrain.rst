@@ -12,7 +12,7 @@ Are there any image requirements?
 ----------------------------------
 
 
-1. Images in TIFF, JPG or PNG format displaying the brain sections can be used in the tools. 
+1. Images in TIFF, JPG or PNG format displaying brain sections can be used in the tools. 
 2. To be compatible with the tools, the image files must be named with a unique ID before they are uploaded to the Online Workbench, e.g. _s0030. See the tip below.
 
 .. tip::
