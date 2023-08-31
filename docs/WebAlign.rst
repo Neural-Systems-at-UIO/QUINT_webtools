@@ -8,12 +8,14 @@ How to open WebAlign?
 
 In "Apps & Analysis", click "WebAlign" and select the brain image series to register to the atlas. Your images will load in the WebAlign app. 
 
-.. image:: images/WebAlign_updated.PNG
+.. image:: images/apps.PNG 
 
 How to register my image series?
 --------------------------------
 
 Once a section is registered to the atlas, WebAlign automatically estimates the position of remaining section within the atlas based on the section numbering. It is recommended to register one section in the beginning of the series and one section towards the end of the series as the first step to speed up the registration process. 
+
+.. image:: images/WebAlign_updated.PNG
 
 1. Select the image in the filmstrip. The main window shows the selected image with the atlas overlay. The colour of the image border reflects registration status (green - registered, orange - in progress, white - not registered).
 
