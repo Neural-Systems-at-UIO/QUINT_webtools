@@ -4,7 +4,9 @@
 
 Once you are logged in to the Online Workbench you are ready to start your analysis. The first step is to upload the images to be analysed. You then combine them into an image series corresponding to one brain using the File Creator app. File Creator also converts the images to the DZIP format required by the tools. 
 
-
+.. image:: images/Image_series.PNG
+   :align: right
+   :width: 270
 
 Are there any image requirements?
 ----------------------------------
@@ -20,10 +22,7 @@ Are there any image requirements?
 
 .. image:: images/NamingConvention.PNG
    :align: left
-
-.. image:: images/Image_series.PNG
-   :align: right
-   :width: 300
+  
 
 How do I upload my images? 
 ----------------------------
