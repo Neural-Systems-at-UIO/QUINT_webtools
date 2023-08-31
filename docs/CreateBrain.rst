@@ -21,7 +21,6 @@ Are there any image requirements?
    For the images to be placed in the correct order in the tools, they must be named with a unique identifier starting with _s followed by a unique number corresponding to the order and spacing of the section in the brain. For example, _s001, _s003, _s005 for serial sections with every other section missing. An example that would work is shown below. 
 
 .. image:: images/NamingConvention.PNG
-   :align: left
   
 
 How do I upload my images? 
