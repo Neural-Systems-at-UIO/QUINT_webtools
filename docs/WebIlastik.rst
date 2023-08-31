@@ -13,4 +13,6 @@ It can take anything from seconds to minutes for a session to start. Be patient!
 .. tip:: The session duration has to be specified in advance. It takes time to train your classifier, so select at least 60 minutes in the first instance. 
 
 .. image:: images/WebIlastik.PNG
+  :align: center
+  :width: 400
 
