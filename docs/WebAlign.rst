@@ -13,7 +13,7 @@ In "Apps & Analysis", click "WebAlign" and select the brain image series to regi
 How to register my image series?
 --------------------------------
 
-Once a section is registered to the atlas, WebAlign automatically estimates the position of remaining section within the atlas based on the section numbering. It is recommended to register one section in the beginning of the series and one section towards the end of the series as the first step to speed up the registration process. 
+.. tip::  It is recommended to register one section in the beginning and end of the series as the first step in the registration process. This is because WebAlign will automatically update the position of remaining sections based on the section numbering, making the process more efficient.   
 
 .. image:: images/WebAlign_updated.PNG
 
