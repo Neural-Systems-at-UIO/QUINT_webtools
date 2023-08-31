@@ -23,5 +23,5 @@ How to make adjustments?
 
 5. Once you are satisfied with the result, press the "Save" button and export the atlas overlays with the "Export overlays" button. 
 
-6. You are now ready to extract your features with <https://quint-webtools.readthedocs.io/en/latest/WebIlastik.html>`_.
+6. You are now ready to extract your features with `WebIlastik <https://quint-webtools.readthedocs.io/en/latest/WebIlastik.html>`_.
  
