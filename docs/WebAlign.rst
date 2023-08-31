@@ -118,5 +118,3 @@ The rectangle of the current cut is projected on each standard plane as a yellow
 Drag the midpoint around to move the cut.
 
 Drag anywhere else to rotate the cut (inside the given standard plane, around the midpoint)
-
-https://webalign.readthedocs.io/en/latest/
