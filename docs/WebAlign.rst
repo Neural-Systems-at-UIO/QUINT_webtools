@@ -10,26 +10,26 @@ In "Apps & Analysis", click "WebAlign" and select the brain image series to regi
 How to register my images?
 ---------------------------
 
-Once a section is registered to the atlas, WebAlign automatically estimates the position of remaining section based on the section numbering. To speed up the registration, it is recommended to register one section in the beginning of the series and one section towards the end of the series as the first step.
+Once a section is registered to the atlas, WebAlign automatically estimates the position of remaining section within the atlas based on the section numbering. It is recommended to register one section in the beginning of the series and one section towards the end of the series as the first step to speed up the registration process. 
 
-1. Select an image in the filmstrip. The main window shows the selected image with the atlas overlay.
+1. Select the image in the filmstrip. The main window shows the selected image with the atlas overlay. The colour of the image border reflects registration status (green - registered, orange - in progress, white - not registered).
 
-.. tip:: If necessary, change the cutting plane of the atlas from coronal to sagittal or horizontal view to match your series using the dropdown in the Control panel.
+.. tip:: If necessary, change the cutting plane of the atlas from coronal to sagittal or horizontal view to match the cutting plane of your sections using the dropdown in the Control panel.
 
-2. To register the section, move the cutting plane through the atlas to the approximate position of the section using the yellow dots in the sagittal, horizontal and coronal viewer windows.
+2. To register the image, move the cutting plane through the atlas to its approximate position in the atlas using the yellow dots in the sagittal, horizontal and coronal viewer windows (Navigation panel). The main window should now show an atlas overlay that roughly matches your section.
 
-3. The main window supports mouse drag in multiple modes in order to find the correct position and to stretch the atlas. 
+3.  The main window supports mouse drag in multiple modes in order to adjust the atlas overlay to match the outer borders as well as anatomical landmarks within the section (translation and transformations).  
 
+* Markers are positioned using the "Space bar". It is initially a cross and is the fix point of transformations to the atlas overlay. The "Esc key" can be used to remove the marker (in full screen mode the "Esc key" escapes full screen). 
 * If there is no marker, or the marker is a cross, mouse drag slides the cut in its plane (translation).
-
-* To stretch the atlas overlay, place a marker with the "Space bar". It is initially a cross and is the fix point of transformations. The "Esc key" can be used to remove the marker (in full screen mode the "Esc key" escapes full screen). With a cross in place, press the up and down arrows or left and right arrows to activate stretch mode. Adjust the atlas overlay to match your section. 
+* With a cross in place, press the Up and Down arrows or Left and Right arrows to activate stretch mode. Adjust the atlas overlay to match your section. The panel can be resized towards the left (common border with Control Panel) and towards the bottom (common border with Filmstrip). 
 
 .. note::
-  The panel can be resized towards the left (common border with Control Panel) and towards the bottom (common border with Filmstrip).
+  WebAlign performs linear registration only. To refine the registration further use the WebWarp app.
 
-6. Save the position by pressing "Save". The registration is copied to the remaining slides to help with scaling (visible also in the filmstrip)
+6. Once the image is registered to a satisfactory standard, save the position by pressing "Save". The registration is copied to the remaining slides to help with scaling (visible also in the filmstrip)
 
-7. Go through all sections and refine position and cutting angles.
+7. Go through all the sections, refine the positions and cutting angles and save the registrations.
 
 .. note::
   When jumping from one section to the other, wait a few seconds for the image to load.
