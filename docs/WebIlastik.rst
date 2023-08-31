@@ -1,7 +1,7 @@
 **WebIlastik**
 ================
 
-WebIlastik is a tool for identifying the features that you want to quantify in the images. 
+WebIlastik is a tool for specifying the features in the section images that you wish to quantify. The features are identified by image classification and subsequent segmentation. 
 
 
 How to open WebIlastik?
@@ -10,7 +10,7 @@ In “Apps & Analysis”, click “WebIlastik” and select the image series tha
 
 It can take anything from seconds to minutes for a session to start. Be patient!
 
-.. tip:: The session duration has to be specified in advance. It takes time to train your classifier, so select at least 60 minutes in the first instance. 
+.. tip:: The session duration has to be specified in advance. It can take time to train a good classifier, so request at least 60 minutes in the first instance. 
 
 .. image:: images/WebIlastik.PNG
   :align: center
