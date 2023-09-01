@@ -1,15 +1,13 @@
 # QUINT_webtools
-Documentation for the QUINT online workbench. 
+Documentation for the QUINT online workbench.  
 
-# QUINT workflow
-
-The QUINT workflow comprises a suite of tools designed to support atlas-based quantification of features in series of histological images from mouse or rat brain.
+The QUINT workflow comprises a suite of tools designed to support atlas-based quantification of series of histological images from mouse or rat brain.
 
 - WebAlign (Semi-automated Linear Atlas-Registration)
 - WebWarp (Nonlinear Refinement of Atlas-Registration) 
-- WebIlastik (Image Segmentation)
-- Nutil (Quantification)
-- Meshview (3D Viewer)
+- WebIlastik (Feature Extraction)
+- Nutil (Regional quantification and coordinate extraction)
+- Meshview (3D Atlas Viewer)
 
 # Documentation
 
