@@ -1,12 +1,11 @@
 **WebIlastik**
 ================
 
-WebIlastik is a tool for specifying the features in the section images that you wish to quantify. The features are identified by image classification and subsequent segmentation. 
-
+WebIlastik is a tool for interactive image classification, segmentation and analysis using supervised machine learning. Using WebIlastik interactively train a classifier to recognise your features-of-interest, e.g. cells, receptors, or markers of pathology. You are then ready to export image segmentations to be used in the Nutil software for regional quantification.  
 
 How to open WebIlastik?
 ---------------------------
-In “Apps & Analysis”, click “WebIlastik” and select the image series that you want to work with. Request a new session with the "Create" button or rejoin an existing session. 
+In “Apps & Analysis”, click “WebIlastik” and select the relevant image series. Request a new session with the "Create" button or rejoin an existing session. 
 
 It can take anything from seconds to minutes for a session to start. Be patient!
 
@@ -16,6 +15,9 @@ It can take anything from seconds to minutes for a session to start. Be patient!
   :align: center
   :width: 500
 
-How to segment your images with WebIlastik?
+How to classify your images?
 -------------------------------------------
+
+
+
 
