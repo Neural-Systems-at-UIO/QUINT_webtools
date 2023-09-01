@@ -13,7 +13,7 @@ In "Apps & Analysis", click "WebAlign" and select the image series created in th
 How to register my image series?
 --------------------------------
 
-.. tip::  It is recommended to register one section located in the beginning and end of the series as the first step in the registration process. This is because WebAlign automatically updatesthe position of remaining sections based on the section numbering, making the registration process more efficient.   
+.. tip::  It is recommended to register one section located in the beginning and end of the series as the first step in the registration process. This is because WebAlign automatically updates the position of remaining sections based on the section numbering, making the registration process more efficient.   
 
 .. image:: images/WebAlign_updated.PNG
 
