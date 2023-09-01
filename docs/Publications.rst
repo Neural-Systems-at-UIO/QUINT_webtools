@@ -1,5 +1,5 @@
-**Cite us**
-===================
+Cite us
+---------
 
 **QUINT**
 
@@ -31,7 +31,7 @@
 
 
 
-**Cite the atlases**
+Cite the atlases
 ---------------------
 
 **Allen Mouse Brain Atlas Common Coordinate Framework version 3** 
