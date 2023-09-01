@@ -23,5 +23,9 @@ How to train your classifier?
 3. To do this, go to "Open from Data Proxy" > "Open File Tree" > press the "folder icon" for the relevant image series to reveal the list of images. Select a subset of the images (or all of them it there are only a few) > "Open". 
 3. Select the image resolution to be used to train the classifier. See the tip. 
 
-.. tip:: Images at original resolution (100%) can be used to train the classifier. However, there are downsides to working at high resolution. The classification process is computationally heavy, meaning that it is time consuming for larger images. Images at original resolution also often provide more detail than is needed to identify the borders of your feature-of-interest (e.g. cells). Since WebIlastik recognises objects within a maximum 10 x 10 pixel window, the quality of the segmentation can be improved by working at a resolution that downscales your feature-of-interest to fit within this window. The optimal resolution is determined by trial and error, with 100% typically necessary for intracellular features, 50%, 25% or 12.5% for cells, and 12.5% or less for larger objects such as protein aggregates. 
+.. tip:: Images at original resolution (100%) can be used to train the classifier. However, there are downsides to working at high resolution. 
+
+  The classification process is computationally heavy, meaning that it is time consuming for larger images. 
+  
+  Images at original resolution also often provide more detail than is needed to identify the borders of your feature-of-interest (e.g. cells). Since WebIlastik recognises objects within a maximum 10 x 10 pixel window, the quality of the segmentation can be improved by working at a resolution that downscales your feature-of-interest to fit within this window. The optimal resolution is determined by trial and error, with 100% typically necessary for intracellular features, 50%, 25% or 12.5% for cells, and 25%, 12.5% or less for larger objects such as protein aggregates. 
 
