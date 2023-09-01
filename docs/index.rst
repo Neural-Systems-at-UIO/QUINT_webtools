@@ -6,7 +6,6 @@ QUINT web-tools
    :maxdepth: 3
    
    QUINTintro_new
-   Requirements
    Publications
    Contact
 
