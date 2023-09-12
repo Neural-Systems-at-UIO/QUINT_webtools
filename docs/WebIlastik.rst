@@ -1,9 +1,9 @@
 **WebIlastik**
 ================
 
-* WebIlastik is a tool for image classification and segmentation using supervised machine learning algorithms. 
-* You interactively train the classifier on training images to recognise your features-of-interest, e.g. labelled cells, receptors, or markers of pathology. 
-* You are then ready to apply the classifier to the whole image series, exporting segmented images to be used in the Nutil app.
+WebIlastik is a tool for image classification and segmentation using supervised machine learning algorithms.
+
+You interactively train the classifier on training images to recognise your features-of-interest, e.g. labelled cells, receptors, or markers of pathology. You are then ready to apply the classifier to the whole image series, exporting segmented images to be used in the Nutil app.
 
 How to open WebIlastik?
 ---------------------------
