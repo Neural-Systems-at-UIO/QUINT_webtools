@@ -34,11 +34,16 @@ How to train your classifier?
 
 .. image:: images/ImageFeatures_ilastik.PNG
   :align: right
+  :width: 400
 
 6. In "Training", use the mouse button to navigate around the image. Press "Ctrl" and the mouse wheel to Zoom in and out. Label some example pixels of each class by selecting "Foreground" or "Background", Press "Alt" to activate paint mode, and use the mouse button to label example pixels of each class. Press "Live update" to view the predictions. Continue training until you are satisfied with the predictions.  
 
 .. image:: images/Training.PNG
   :align: right
-  :width: 600
+  :width: 500
 
-7. In "Export Predictions", select "Simple Segmentations". In "Input Datasets" select all the images in your image series at the resolution used to train your classifier. For "Output" select DeepZoom in PNG format (zip). Press "Start Export Jobs".   
+7. In "Export Predictions", select "Simple Segmentations". In "Input Datasets" select all the images in your image series at the resolution used to train your classifier. For "Output" select DeepZoom in PNG format (zip). Press "Start Export Jobs".  
+
+.. image:: images/ilastik_output.PNG
+  :align: right
+  :width: 400
