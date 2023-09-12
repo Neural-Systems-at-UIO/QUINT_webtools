@@ -37,5 +37,5 @@ How to train your classifier?
 
 6. In "Training", use the mouse button to navigate around the image. Press "Ctrl" and the mouse wheel to Zoom in and out. Label some example pixels of each class by selecting "Foreground" or "Background", Press "Alt" to activate paint mode, and use the mouse button to label example pixels of each class. 
 
-.. image:: images/training.PNG
+.. image:: images/Training.PNG
   :align: right
