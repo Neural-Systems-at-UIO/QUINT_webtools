@@ -15,7 +15,7 @@ It can take anything from seconds to minutes for a session to start. Be patient!
 
 .. image:: images/WebIlastik.PNG
   :align: center
-  :width: 500
+  :width: 600
 
 
 How to train your classifier?
