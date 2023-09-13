@@ -47,3 +47,4 @@ How to train your classifier?
 
 .. image:: images/ilastik_output.PNG
   :align: center
+  :width: 400
