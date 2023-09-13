@@ -40,7 +40,7 @@ How to train your classifier?
 
 .. image:: images/Training.PNG
   :align: right
-  :width: 500
+  :width: 300
 
 7. In "Export Predictions", select "Simple Segmentations". In "Input Datasets" select all the images in your image series at the resolution used to train your classifier. For "Output" select DeepZoom in PNG format (zip). Press "Start Export Jobs".  
 
