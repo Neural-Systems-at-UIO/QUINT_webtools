@@ -6,7 +6,7 @@ WebAlign is a tool for registering your sections to a reference brain atlas. Dif
 How to open WebAlign?
 ------------------------
 
-In "Apps & Analysis", click "WebAlign" and select the image series created in the previous step. Your images will load in the WebAlign app. 
+In "Apps & Analysis", click "WebAlign" and select the image series created in File Creator. Your images will load in the WebAlign app. 
 
 .. image:: images/apps.PNG 
 
