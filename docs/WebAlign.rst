@@ -10,8 +10,8 @@ In "Apps & Analysis", click "WebAlign" and select the image series created in Fi
 
 .. image:: images/apps.PNG 
 
-How to register my image series?
---------------------------------
+How to register my image series to the atlas?
+---------------------------------------------
 
 .. tip::  It is recommended to register one section located in the beginning and end of the series as the first step in the registration process. This is because WebAlign automatically updates the position of remaining sections based on the section numbering, making the registration process more efficient.   
 
