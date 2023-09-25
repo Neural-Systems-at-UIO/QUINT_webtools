@@ -3,6 +3,9 @@
 
 WebAlign is a tool for registering your sections to a reference brain atlas. Different experimental datasets can be registered to the same atlas allowing spatial integration, analysis and navigation within a standardised coordinate system. 
 
+.. Warning:: 
+WebAlign currently only works in the Google Chrome browser (not Firefox). 
+
 How to open WebAlign?
 ------------------------
 
