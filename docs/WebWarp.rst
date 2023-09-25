@@ -2,6 +2,9 @@
 ============
 WebWarp is a tool for making nonlinear refinements to the atlas registration achieved using WebAlign. Adjustment to the atlas overlays are applied manually by dropping and dragging markers. 
 
+.. Warning:: 
+WebWarp currently only works in the Google Chrome browser (not Firefox). 
+
 How to access WebWarp?
 ----------------------------
 In “Apps & Analysis”, click “WebWarp”. Select an image series that has already been registered to the atlas using the WebAlign app. Your images will load in the WebWarp app.
