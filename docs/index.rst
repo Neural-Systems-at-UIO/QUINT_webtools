@@ -9,6 +9,14 @@ QUINT web-tools
    Publications
    Contact
 
+
+.. toctree::
+   :caption: Getting started
+   :maxdepth: 3
+
+   MyWorkspace
+   Requirements
+
 .. toctree::
    :caption: Upload files
    :maxdepth: 3
