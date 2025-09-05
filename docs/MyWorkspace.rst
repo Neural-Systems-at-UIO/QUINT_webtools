@@ -15,7 +15,7 @@ Your workspace provides a centralized location to:
 
 Your workspace is comprised of your user space, tabs pointing to applications which allow you to carry out QUINT workflow, in order, and access to project management and documentation.
 
-.. image:: images/Header.PNG
+.. image:: images/Header.png
 
 **Workspace Features**
 ------------------
@@ -32,7 +32,7 @@ Your workspace includes several key features to enhance your research workflow:
 
 Create and organize multiple research projects within your workspace. 
 
-.. image:: images/createProject.PNG
+.. image:: images/createProject.png
    :align: right
    :width: 270
 
@@ -51,7 +51,7 @@ And each series can include:
 ~~~~~~~~~~~~~~~~~~
 Once a project is created, you can upload your brain image data to the project, via the ADD/EDIT SERIES button.
 
-.. image:: images/AddEditSeries.PNG
+.. image:: images/AddEditSeries.png
     :height: 400
     :align: center
 
