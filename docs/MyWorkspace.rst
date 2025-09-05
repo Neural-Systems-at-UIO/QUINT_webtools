@@ -1,7 +1,7 @@
 **My Workspace**
 ============
 
-Welcome to your QUINT workspace! This is where you'll manage your projects and data for the QUINT web-tools platform.
+Welcome to your QUINT workspace! This is where you'll manage your projects and data for the QUINT Online application.
 
 **Getting Started with Your Workspace**
 -----------------------------------
@@ -12,6 +12,10 @@ Your workspace provides a centralized location to:
 * Upload and manage brain image data
 * Track analysis progress
 * Access your results and outputs
+
+Your workspace is comprised of your user space, tabs pointing to applications which allow you to carry out QUINT workflow, in order, and access to project management and documentation.
+
+.. image:: images/Header.PNG
 
 **Workspace Features**
 ------------------
@@ -26,31 +30,32 @@ Your workspace includes several key features to enhance your research workflow:
 **Project Management**
 ~~~~~~~~~~~~~~~~~~
 
-Create and organize multiple research projects within your workspace. Each project can contain:
+Create and organize multiple research projects within your workspace. 
 
-* Brain image series
-* Atlas registration data
-* Feature extraction results
-* Analysis outputs
+.. image:: images/createProject.PNG
+   :align: right
+   :width: 270
 
-**Data Organization**
-~~~~~~~~~~~~~~~~~
+Each project can contain:
 
-Keep your data organized with:
+* Multiple brain image series
 
-* Folder structures for different experiments
-* Naming conventions for easy identification
-* Version control for your analysis workflows
+And each series can include:
 
-**Quick Actions**
-~~~~~~~~~~~~~~~~
+* A set of experimental images
+* An Atlas registration data
+* Project tracking and progress report
+* Multiple quantification analysis results
 
-From your workspace, you can quickly:
+**Data Upload**
+~~~~~~~~~~~~~~~~~~
+Once a project is created, you can upload your brain image data to the project, via the ADD/EDIT SERIES button.
 
-1. **Create a new project** - Start a new research analysis
-2. **Upload brain images** - Add your experimental data
-3. **Access recent work** - Continue where you left off
-4. **View results** - Check your completed analyses
+.. image:: images/AddEditSeries.PNG
+    :height: 400
+    :align: center
+
+
 
 **Next Steps**
 ----------
