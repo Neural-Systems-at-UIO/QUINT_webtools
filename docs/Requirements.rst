@@ -9,9 +9,7 @@ The online workbench supports upload of histological images at high-resolution a
 * Add a unique ID to each image file name that reflects the serial order and spacing of the sections. 
 * The format is: _sXXX with XXX representing the section number (not restricted to three digits). 
 
-For consecutive sections: _s0001, _s0002, _s0003
-
-For every 2nd section: _s001, _s003, _s005
+For example, for consecutive sections: _s0001, _s0002, _s0003; for every 2nd section: _s001, _s003, _s005, etc.
 
 .. image:: images/NamingConvention.PNG
 
