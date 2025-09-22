@@ -1,7 +1,7 @@
 **My Workspace**
 ============
 
-Welcome to your QUINT workspace! This is where you'll manage your projects and data for the QUINT Online application.
+Welcome to your QUINT workspace! This is where you'll manage your projects and data for the QUINT workflow.
 
 **Getting Started with Your Workspace**
 -----------------------------------
@@ -62,7 +62,6 @@ Once a project is created, you can upload your brain image data to the project, 
 
 Once you're familiar with your workspace, you can proceed to:
 
-* :doc:`QUINTOnline` - Learn about the QUINT Online platform
 * :doc:`Requirements` - Check system requirements
 * :doc:`CreateBrain` - Upload your brain image data
 

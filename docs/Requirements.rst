@@ -1,7 +1,7 @@
 **Preparing the images for upload**
 ===================================
 
-The online workbench supports upload of histological images at high-resolution and in most image formats. The main requirement is that they are named according to the QUINT file naming convention. 
+The online workbench supports upload of histological images at high-resolution and most image formats. The main requirement is that they are named according to the QUINT file naming convention. 
 
 **QUINT naming convention**
 -------------------------------

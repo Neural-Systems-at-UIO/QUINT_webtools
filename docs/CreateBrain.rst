@@ -2,10 +2,8 @@
 **File Creator**
 ================
 
-Once you are logged in to the Online Workbench you are ready to start your analysis. The first step is to upload the images to be analysed. You then combine them into an image series corresponding to one brain using the File Creator app. File Creator also converts the images to the DZIP format required by the tools. 
+Once you are logged in to the Rodent Workbench you are ready to start your analysis. The first step is to upload the images to be analysed. You then combine them into an image series corresponding to one brain using the File Creator app. File Creator also converts the images to the DZIP format required by the tools. 
 
-.. Warning:: 
-   It is recommended to work in the Google Chrome browser. This is because some of the tools do not currently work in other browsers. 
 
 .. image:: images/Image_series.PNG
    :align: right
@@ -16,7 +14,7 @@ Are there any image requirements?
 
 
 1. Images in TIFF, JPG or PNG format displaying brain sections can be used in the tools. 
-2. To be compatible with the tools, the image files must be named with a unique ID before they are uploaded to the Online Workbench, e.g. _s0030. See the tip below.
+2. To be compatible with the tools, the image files must be named with a unique ID before they are uploaded to the Rodent Workbench, e.g. _s0030. See the tip below.
 
 .. tip::
    Images of brain section corresponding to one brain are analysed together in an image series. 
