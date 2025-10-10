@@ -1,26 +1,16 @@
 **WebAlign**
 ============
 
-WebAlign is a tool for registering your sections to a reference brain atlas. Different experimental datasets can be registered to the same atlas allowing spatial integration, analysis and navigation within a standardised coordinate system. 
+WebAlign is a tool for registering the brain sections to a reference brain atlas. Different experimental datasets can be registered to the same atlas allowing spatial integration, analysis and navigation within a standardised coordinate system. 
 
-.. Warning:: 
-WebAlign currently only works in the Google Chrome browser (not Firefox). 
-
-How to open WebAlign?
-------------------------
-
-In "Apps & Analysis", click "WebAlign" and select the image series created in File Creator. Your images will load in the WebAlign app. 
-
-.. image:: images/apps.PNG 
-
-How to register my image series to the atlas?
+How to use WebAlign?
 ---------------------------------------------
 
-.. tip::  It is recommended to register one section located in the beginning and end of the series as the first step in the registration process. This is because WebAlign automatically updates the position of remaining sections based on the section numbering, making the registration process more efficient.   
+1. Open WebAlign by selecting "Continue to WebAlign".
 
-.. image:: images/WebAlign_updated.PNG
+.. tip::  It is recommended to register one section in the beginning of the series and one section in the end of the series as the first step in the registration process. This is because WebAlign automatically updates the position of remaining sections based on the section numbering, making the registration process more efficient.   
 
-1. Select the image to be registered in the filmstrip. The Main Window shows the selected image with an atlas overlay. The colour of the image border reflects the current registration status (white - not registered, orange - in progress, green - registration saved).
+2. Select the image to register in the filmstrip. The Main Window shows the selected image with an atlas overlay. The colour of the image border reflects the current registration status (white - not registered, orange - in progress, green - registration saved).
 
 .. tip:: Use the dropdown menu in the Control panel to change the plane through the atlas template from the default coronal plane to a sagittal or horizontal plane to best match your sections.
 
