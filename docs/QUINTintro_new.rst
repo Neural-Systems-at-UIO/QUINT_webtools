@@ -6,7 +6,7 @@ The QUINT workflow supports the analysis of 2D rodent brain microscopy data, all
 .. image:: images/QUINT_withexample.png
 
 .. tip::   
-   The QUINT workflow is available online in the `EBRAINS Rodent Workbench <https://rodentworkbench.apps.ebrains.eu/>`_ or as a series of `desktop applications <https://quint-workflow.readthedocs.io/en/latest/>`_. The EBRAINS Rodent Workbench offers tighter integration of the tools and new functionality such as shareable microscopy viewer links and a plotting feature.
+   An online beta version of the QUINT workflow is available at `EBRAINS Rodent Workbench <https://rodentworkbench.apps.ebrains.eu/>`_ (an EBRAINS account is required). The QUINT workflow is also available locally through the use of a series of `desktop applications <https://quint-workflow.readthedocs.io/en/latest/>`_. The benefit of the EBRAINS Rodent Workbench is tighter integration of the tools and new functionality such as shareable microscopy viewer links and automated plotting.
 
 Which atlases are supported?
 -----------------------------
@@ -19,13 +19,13 @@ Which atlases are supported?
 What is the output of the workflow?
 ---------------------------------
 
-The workflow generates reports with object counts and area fraction in reference atlas regions, and point clouds that can be used to visualise the features in 3D reference space using our Meshview Atlas Viewer.  
+The workflow generates reports with feature counts and area fraction in reference atlas regions, and point clouds that can be used to visualise the features in 3D reference space using our Meshview Atlas Viewer.  
 
 .. image:: images/results.PNG
 
-How to access the workflow?
+How to access the QUINT workflow?
 ----------------------------------------
 
-To access, go to the `Rodent Workbench <https://rodentworkbench.apps.ebrains.eu/>`_, register for an EBRAINS account, and login.
+To access the online beta-version, go to the `Rodent Workbench <https://rodentworkbench.apps.ebrains.eu/>`_, register for an EBRAINS account, and login.
  
 
