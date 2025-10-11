@@ -37,4 +37,4 @@ The tools in the QUINT workflow were developed with support from the EBRAINS inf
 
 # Contact us
 
-support@ebrain.eu
+support@ebrains.eu
