@@ -2,7 +2,7 @@
 Documentation for the QUINT online workbench.  
 
 The QUINT workflow comprises a suite of tools designed to support atlas-based quantification of series of histological images from mouse or rat brain.
-
+- CreateZoom (transformation of 2D images into pyramid format DZIP)
 - WebAlign (Semi-automated Linear Atlas-Registration)
 - WebWarp (Nonlinear Refinement of Atlas-Registration) 
 - WebIlastik (Feature Extraction)
@@ -15,11 +15,13 @@ https://quint-webtools.readthedocs.io
 
 # Acknowledgements
 
-The tools in the QUINT workflow were developed with support from the EBRAINS infrastructure, and funding from the European Union’s Horizon 2020 Framework Programme for Research and Innovation under the Framework Partnership Agreement No. 650003 (HBP FPA).
+The tools in the QUINT workflow were developed with support from the EBRAINS infrastructure, and funding from the European Union’s Horizon 2020 Framework Programme for Research and Innovation under the Framework Partnership Agreement No. 650003 (HBP FPA) and the European Union’s Horizon Europe Programme for Research Infrastructures Grant Agreement No. 101147319 (EBRAINS 2.0).
 
 # Cite us
 
-- **QUINT.** Yates SC, Groeneboom NE, Coello C, Lichtenthaler SF, Kuhn PH, Demuth HU,Hartlage-Rübsamen M, Roßner S, Leergaard T, Kreshuk A, Puchades MA, Bjaalie JG. QUINT: Workflow for quantification and spatial analysis of features in histological images from rodent brain. Front Neuroinform. 2019 Dec 3;13:75. https://doi.org/10.3389/fninf.2019.00075.
+- **QUINT and online QUINT** Puchades MA, Yates SC, Csucs G, Carey H, Balkir A, Leergaard TB, Bjaalie JG. Software and pipelines for registration and analyses of rodent brain image data in reference atlas space. Front Neuroinform. 2025 Sep 24;19:1629388. https:doi.org/10.3389/fninf.2025.1629388
+
+- **QUINT** Yates SC, Groeneboom NE, Coello C, Lichtenthaler SF, Kuhn PH, Demuth HU,Hartlage-Rübsamen M, Roßner S, Leergaard T, Kreshuk A, Puchades MA, Bjaalie JG. QUINT: Workflow for quantification and spatial analysis of features in histological images from rodent brain. Front Neuroinform. 2019 Dec 3;13:75. https://doi.org/10.3389/fninf.2019.00075.
 
 - **QuickNII (RRID:SCR_016854)**. Puchades MA, Csucs G, Lederberger D, Leergaard TB and Bjaalie JG. Spatial registration of serial microscopic brain images to three-dimensional reference atlases with the QuickNII tool. PLosONE, 2019, 14(5): e0216796. https://doi.org/10.1371/journal.pone.0216796
 
