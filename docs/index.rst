@@ -15,12 +15,12 @@ QUINT web-tools
    :maxdepth: 3
 
    MyWorkspace
-   Requirements
 
 .. toctree::
    :caption: Upload files
    :maxdepth: 3
 
+   Requirements
    CreateBrain
 
 .. toctree::

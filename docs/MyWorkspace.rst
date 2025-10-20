@@ -1,14 +1,14 @@
-**My Workspace**
-============
+**My online Workspace**
+=======================
 
-Welcome to your QUINT workspace! This is where you'll manage your projects and data for the QUINT workflow.
+Welcome to your QUINT online workspace! This is where you'll manage your projects and data for the QUINT online workflow.
 
-**Getting Started with Your Workspace**
+**Getting Started with Your online Workspace**
 -----------------------------------
 
-Your workspace provides a centralized location to:
+Your online workspace provides a centralised location to:
 
-* Organize your research projects in EBRAINS infrastructure
+* Organise your research projects in EBRAINS infrastructure
 * Upload and manage brain image data
 * Track analysis progress
 * Access your results and outputs
@@ -20,17 +20,17 @@ Your workspace is comprised of your user space, tabs pointing to applications wh
 **Workspace Features**
 ------------------
 
-Your workspace includes several key features to enhance your research workflow:
+Your online workspace includes several key features to enhance your research workflow:
 
 * **Project Management**: Create and manage multiple research projects, each supporting multiple series.
-* **Data Upload**: Easily upload and organize your brain image data and access it from any device with your EBRAINS account.
+* **Data Upload**: Easily upload and organise your brain image data and access it from any device with your EBRAINS account.
 * **Analysis Tracking**: Monitor the progress of your analyses with bespoke QUINT workflow focused tracking dashboard.
-* **Result Access**: Quickly access your analysis results and outputs, make use of the multiple visualization tools integrated into the workflow.
+* **Result Access**: Quickly access your analysis results and outputs, make use of the multiple visualisation tools integrated into the workflow.
 
 **Project Management**
 ~~~~~~~~~~~~~~~~~~
 
-Create and organize multiple research projects within your workspace. 
+Create and organise multiple research projects within your workspace. 
 
 .. image:: images/createProject.png
    :align: right
@@ -38,14 +38,8 @@ Create and organize multiple research projects within your workspace.
 
 Each project can contain:
 
-* Multiple brain image series
+* Multiple brain image series 
 
-And each series can include:
-
-* A set of experimental images
-* An Atlas registration data
-* Project tracking and progress report
-* Multiple quantification analysis results
 
 **Data Upload**
 ~~~~~~~~~~~~~~~~~~
@@ -60,7 +54,7 @@ Once a project is created, you can upload your brain image data to the project, 
 **Next Steps**
 ----------
 
-Once you're familiar with your workspace, you can proceed to:
+Once you're familiar with your workspace, proceed to:
 
 * :doc:`Requirements` - Check system requirements
 * :doc:`CreateBrain` - Upload your brain image data
