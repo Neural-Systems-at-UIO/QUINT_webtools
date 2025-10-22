@@ -5,15 +5,6 @@ The QUINT online workflow supports the analysis of 2D rodent brain microscopy da
 
 .. image:: images/QUINT_withexample.png
 
-
-How to access the QUINT online workflow?
-----------------------------------------
-
-The QUINT online workflow is under development. To access an alpha version, go to the `Rodent Workbench <https://rodentworkbench.apps.ebrains.eu/>`_, register for an EBRAINS account, and login. As it is currently under development, use for testing purposes only (there are errors in the calculations). Your feedback is much appreciated. 
-
-.. tip::   
-   A mature version of the QUINT workflow is available through the use of a series of standalone desktop applications, `learn more here <https://quint-workflow.readthedocs.io/en/latest/>`_ (QuickNII, VisuAlign, ilastik and Nutil). The online version is being developed to provide tighter integration of the tools and benefits such as shareable microscopy viewer links and automated plotting.
-
 Which atlases are supported?
 -----------------------------
 
@@ -28,6 +19,14 @@ What is the output of the workflow?
 The QUINT workflow generates reports with feature counts and area fraction in reference atlas regions, and point clouds that can be used to visualise the features in 3D reference space using our Meshview Atlas Viewer.  
 
 .. image:: images/results.PNG
+
+How to access the QUINT online workflow?
+----------------------------------------
+
+The QUINT online workflow is under development. To access an alpha version, go to the `Rodent Workbench <https://rodentworkbench.apps.ebrains.eu/>`_, register for an EBRAINS account, and login. As it is currently under development, use for testing purposes only (there are errors in the calculations). Your feedback is much appreciated. 
+
+.. tip::   
+   A mature version of the QUINT workflow is available through the use of a series of standalone desktop applications, `learn more here <https://quint-workflow.readthedocs.io/en/latest/>`_ (QuickNII, VisuAlign, ilastik and Nutil). The online version is being developed to provide tighter integration of the tools and benefits such as shareable microscopy viewer links and automated plotting.
 
 
 

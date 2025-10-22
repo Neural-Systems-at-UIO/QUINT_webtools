@@ -20,5 +20,8 @@ Every 10th section starting with 3rd section: _s003, _s013, _s023, _s033, etc.
 
 .. image:: images/NamingConvention.PNG
 
+.. tip::
+
+   Images of brain sections corresponding to one brain are analysed together as an image series. The unique IDs are used to position the images in the correct order in the QUINT tools.  
 
 
