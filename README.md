@@ -19,7 +19,7 @@ The tools in the QUINT workflow were developed with support from the EBRAINS inf
 
 # Cite us
 
-- **QUINT and online QUINT** Puchades MA, Yates SC, Csucs G, Carey H, Balkir A, Leergaard TB, Bjaalie JG. Software and pipelines for registration and analyses of rodent brain image data in reference atlas space. Front Neuroinform. 2025 Sep 24;19:1629388. https:doi.org/10.3389/fninf.2025.1629388
+- **QUINT and online QUINT** Puchades MA, Yates SC, Csucs G, Carey H, Balkir A, Leergaard TB, Bjaalie JG. Software and pipelines for registration and analyses of rodent brain image data in reference atlas space. Front Neuroinform. 2025 Sep 24;19:1629388. https://doi.org/10.3389/fninf.2025.1629388
 
 - **QUINT** Yates SC, Groeneboom NE, Coello C, Lichtenthaler SF, Kuhn PH, Demuth HU,Hartlage-Rübsamen M, Roßner S, Leergaard T, Kreshuk A, Puchades MA, Bjaalie JG. QUINT: Workflow for quantification and spatial analysis of features in histological images from rodent brain. Front Neuroinform. 2019 Dec 3;13:75. https://doi.org/10.3389/fninf.2019.00075.
 
