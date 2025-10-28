@@ -35,6 +35,7 @@ QUINT web-tools
    :maxdepth: 3
    
    WebIlastik
+   AlternativeSeg
    
 .. toctree::
    :caption: Analyse
