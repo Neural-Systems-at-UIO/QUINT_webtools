@@ -2,7 +2,7 @@ QUINT web-tools
 ====================
 
 .. toctree::
-   :caption: QUINT online worflow
+   :caption: QUINT online workflow
    :maxdepth: 3
    
    QUINTintro_new
@@ -24,21 +24,21 @@ QUINT web-tools
    CreateBrain
 
 .. toctree::
-   :caption: Atlas-registration
+   :caption: Register to atlas
    :maxdepth: 3
    
    WebAlign
    WebWarp
    
 .. toctree::
-   :caption: Feature extraction
+   :caption: Extract features
    :maxdepth: 3
    
    WebIlastik
    AlternativeSeg
    
 .. toctree::
-   :caption: Analyse
+   :caption: Quantify and analyse
    :maxdepth: 3
    
    NutilWeb

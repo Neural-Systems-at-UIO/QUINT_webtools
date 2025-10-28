@@ -1,17 +1,15 @@
 **WebIlastik**
 ================
 
-WebIlastik is a tool for image classification and segmentation using supervised machine learning algorithms.
-
-You interactively train the classifier on training images to recognise your features-of-interest, e.g. labelled cells, receptors, or markers of pathology. You are then ready to apply the classifier to the whole image series, exporting segmented images to be used in the Nutil app.
+Webilastik is an image classification and segmentation tool that can be used to identify the features in your images to quantify using the QUINT online workflow. It works by supervised machine learning. In Webilastik, you interactively train a classifier to recognise your features-of-interest, e.g. labelled cells, receptors, or a pathological marker. The training is performed on a subset of your images, e.g. training images. Once the classifier is trained, you can apply it to the whole image series, creating segmented images displaying your features-of-interest in a unique RGB colour, to be used in the WebNutil application. 
 
 How to open WebIlastik?
 ---------------------------
-In “Apps & Analysis”, click “WebIlastik” and select your image series. Request a new session with the "Create" button or rejoin an existing session. 
+Navigate to “WebIlastik”. Request a new session with the "Create" button or rejoin an existing session. 
 
 It can take anything from seconds to minutes for a session to start. Be patient!
 
-.. tip:: The session duration has to be specified in advance. As it takes time to train a good classifier, request at least 60 minutes in the first instance. 
+.. tip:: The session duration has to be specified. As it takes time to train a good classifier, request at least 60 minutes in the first instance. 
 
 .. image:: images/WebIlastik.PNG
   :align: center
