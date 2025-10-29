@@ -4,7 +4,6 @@
 
 Once you are logged in to the online Workbench you are ready to start your analysis. The first step is to create a project and upload your brain image series to be analysed. You then convert the images to DZI format using the conversion tool in the workspace, combine the images into an image series representing one brain and select the reference atlas to use for your analysis.
 
-
 .. image:: images/Image_series.PNG
    :align: right
    :width: 200
