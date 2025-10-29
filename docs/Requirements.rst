@@ -3,7 +3,11 @@
 
 The online workbench supports upload of images of histological brain sections at high-resolution in many image formats (TIFF, JPG, PNG). 
 
-The images must be named according to the QUINT file naming convention. As the first step in the workflow, add a unique identifier to each image as described below.   
+The images must be named according to the QUINT file naming convention. As the first step in the workflow, add a unique identifier to each image as described below.
+
+.. image:: images/Image_series.PNG
+   :align: right
+   :width: 270
 
 **QUINT naming convention**
 -------------------------------
