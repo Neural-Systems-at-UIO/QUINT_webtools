@@ -32,11 +32,11 @@ The QUINT online workflow is under development. To access an alpha version, go t
 
 1. **Prepare image for upload** to the QUINT online workbench.
 2. **Upload the images** to the workbench and convert them to the DZI format required by the tools using our conversion tool.
-2. **Register the images to an atlas** in two steps using *WebAlign* (linear registration) and *WebWarp* (nonlinear refinement).  
-3. **Extract features** to be quantified by segmentation using *Webilastik* or upload your own segmentations. 
-4. **Quantify features** in atlas regions using *WebNutil*.
-5. **Explore your results** using the *Sandbox*.
-6. **Visualise** the results in 3D atlas space using the online *MeshView* Atlas Viewer.
+3. **Register the images to an atlas** in two steps using *WebAlign* (linear registration) and *WebWarp* (nonlinear refinement).  
+4. **Extract features** to be quantified by segmentation using *Webilastik* or upload your own segmentations. 
+5. **Quantify features** in atlas regions using *WebNutil*.
+6. **Explore your results** using the *Sandbox*.
+7. **Visualise** the results in 3D atlas space using the online *MeshView* Atlas Viewer.
 
 
 
