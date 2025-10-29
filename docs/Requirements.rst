@@ -3,7 +3,7 @@
 
 .. image:: images/Image_series.PNG
    :align: right
-   :width: 270
+   :width: 200
 
 The online workbench supports upload of images of histological brain sections at high-resolution in many image formats (TIFF, JPG, PNG). 
 
