@@ -8,14 +8,14 @@ Once you are logged in to the online Workbench you are ready to start your analy
    :align: right
    :width: 200
 
-Are there any image requirements?
+**Are there any image requirements?**
 ----------------------------------
 
 1. Images in TIFF, JPG or PNG format displaying brain sections can be used in the tools. 
 2. To be compatible with the tools, the image files must be named with a unique ID before they are uploaded to the workbench, e.g. _s0030. See `Preparing the images for upload <https://quint-webtools.readthedocs.io/en/latest/Requirements.html>`_.
 
 
-How do I upload my images? 
+**How do I upload my images?** 
 ----------------------------
 
 1. In the online Workbench, create a new project, give it a name and then open the project.
