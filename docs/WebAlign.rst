@@ -1,18 +1,22 @@
 **WebAlign**
 ============
 
-WebAlign is used to register brain sections to a reference brain atlas using linear registration methods. This involves two key steps:
+WebAlign is used to register brain sections to a reference brain atlas using a linear registration method. It involves two key steps:
 
-* Establish the series cutting angle and apply this to all the sections. The angle is usually stable across the series unless sectioning is performed in two or more blocks.
-* Establish the position of each section in the brain and adjust the size and position of the atlas overlay to match the underlying section. 
+* Establish the series cutting angle, and apply this to the atlas for all the sections. The angle is usually stable across the series unless sectioning is performed in two or more blocks.
+* Establish the position of each section in the brain and adjust the size and position of the atlas overlay to match the underlying section (translation and tranformation). 
 
-Once the series is correctly registered to the atlas using WebAlign, WebWarp can be used to make in-plane nonlinear refinements to match anatomical landmarks. 
+Once the atlas is correctly registered to the sections using WebAlign, WebWarp can be used to make in-plane nonlinear refinements to match anatomical landmarks. 
+
+.. image:: images/WebAlign_Calb.png
+
+Data from: Bjerke, I. E et al. (2025). Distribution of calbindin-positive neurons in the normal adult mouse brain (v2) [Data set]. EBRAINS. https://doi.org/10.25493/QVCB-Y3G
 
 
 **How to use WebAlign?**
 ---------------------------------------------
 
-1. Open WebAlign by selecting "Continue to WebAlign" in your project. 
+1. In your project, Open WebAlign by selecting "Continue to WebAlign". 
 
 .. image:: images/navigate_to_apps.png 
 
@@ -26,7 +30,7 @@ Once the series is correctly registered to the atlas using WebAlign, WebWarp can
 
 4.  The main window supports mouse drag in multiple modes for adjusting the atlas overlay to match the outer borders as well as anatomical landmarks within the section (both translation and transformation are supported).  
 
-* Markers are positioned using the "Space bar". Markers are crosses initially and are the fix point of transformations to the atlas overlay. The "Esc key" can be used to remove the marker (in full screen mode the "Esc key" escapes full screen). 
+* Markers are positioned using the "Space bar". Markers are crosses initially and are the anchor point of transformations to the atlas overlay. The "Esc key" can be used to remove the marker (in full screen mode the "Esc key" escapes full screen). 
 * If there is no marker, or the marker is a cross, mouse drag slides the cut in its plane (translation).
 * With a cross in place, press the Up and Down arrows or Left and Right arrows to activate stretch mode (a line will appear). Adjust the atlas overlay to match your section. The panel can be resized towards the left (common border with Control Panel) and towards the bottom (common border with Filmstrip). 
 
