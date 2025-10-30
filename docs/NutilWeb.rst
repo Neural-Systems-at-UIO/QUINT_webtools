@@ -1,16 +1,15 @@
-**NutilWeb**
+**WebNutil**
 ==============
 
-Nutilweb is a tool for performing brain-wide quantification of features, and for extracting point clouds for visualising the features in 3D atlas space. It combines the output from the atlas-registration step (WebAlign/WebWarp) with the output from the feature extraction step (Webilastik).
+WebNutil is used to perform quantification of segmented features in reference atlas regions, and for extracting point clouds representing the features in 3D atlas space. It combines the output from the atlas-registration step using WebAlign and WebWarp with the output of the feature extraction step using Webilastik or an external software to generate a series of reports. These can be downloaded or used interactively in the plotting Sandbox and MeshView atlas viewer.
 
-How to open Nutilweb?
+**How to open WebNutil?**
 -------------------------
 
-1. In “Apps & Analysis”, click “Nutilweb" to reveal brains available to be processed. 
-2. Select and move the brains to be processed to the middle column with the arrows.
-3. Select the settings for the analysis and press "process brains".  
+1. Navigate to WebNutil in the navigation panel.  
+2. 
 
-.. image:: images/PyNutil.PNG
+.. image:: images/
    :align: center
 
 Settings
