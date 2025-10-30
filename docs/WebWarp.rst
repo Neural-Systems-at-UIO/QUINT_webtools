@@ -1,18 +1,21 @@
 **WebWarp**
 ============
-WebWarp is a tool for making nonlinear refinements to the atlas registration achieved using WebAlign. Adjustment to the atlas overlays are applied manually by dropping and dragging markers. 
 
-.. Warning:: 
-WebWarp currently only works in the Google Chrome browser (not Firefox). 
+WebWarp is used to make nonlinear refinements to the atlas registration achieved using WebAlign. Adjustments are performed in-plane and are applied manually by dropping markers on the atlas overlay and dragging them to their correct position on the underlying section using anatomical landmarks. This step is optional.  
 
-How to access WebWarp?
+.. image:: images/WebWarp_Calb.png
+
+**Data from**: Bjerke, I. E et al. (2025). Distribution of calbindin-positive neurons in the normal adult mouse brain (v2) [Data set]. EBRAINS. https://doi.org/10.25493/QVCB-Y3G
+
+**How to access WebWarp?**
 ----------------------------
-In “Apps & Analysis”, click “WebWarp”. Select an image series that has already been registered to the atlas using the WebAlign app. Your images will load in the WebWarp app.
 
-How to make adjustments?
--------------------------
+In your project, Open WebAlign by selecting "Continue to WebAlign". 
 
-.. image:: images/WebWarp.PNG
+.. image:: images/navigate_to_apps.png 
+
+**How to make adjustments?**
+---------------------------
 
 1. The sections are visible in the Main Window with atlas overlays achieved using WebAlign. Switch between different versions of the atlas overlay using the transparency slider: “Atlas opacity”. The color of the atlas outline can be modified by clicking on the coloured rectangle.
 2. To make an adjustment to the atlas overlay, place a marker on the part of the atlas that you wish to adjust by pressing the space bar. Adjustments are made by dragging the marker using the mouse cursor.
@@ -27,5 +30,5 @@ How to make adjustments?
 
 5. Once you are satisfied with the result, press "Save". Export the atlas overlays with the "Export overlays" button. 
 
-6. You are now ready for the second step of the workflow: extract your features with `WebIlastik <https://quint-webtools.readthedocs.io/en/latest/WebIlastik.html>`_.
+6. You are now ready for the next step of the workflow: extract your features with `WebIlastik <https://quint-webtools.readthedocs.io/en/latest/WebIlastik.html>`_.
  

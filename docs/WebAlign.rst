@@ -1,16 +1,16 @@
 **WebAlign**
 ============
 
-WebAlign is used to register brain sections to a reference brain atlas using a linear registration method. It involves two key steps:
+WebAlign is used to register brain sections to a reference brain atlas using linear registration methods. It involves two key steps:
 
 * Establish the series cutting angle, and apply this to the atlas for all the sections. The angle is usually stable across the series unless sectioning is performed in two or more blocks.
-* Establish the position of each section in the brain and adjust the size and position of the atlas overlay to match the underlying section (translation and tranformation). 
+* Establish the position of each section in the brain and adjust the size and position of the atlas overlay to match the underlying section. 
 
 Once the atlas is correctly registered to the sections using WebAlign, WebWarp can be used to make in-plane nonlinear refinements to match anatomical landmarks. 
 
 .. image:: images/WebAlign_Calb.png
 
-Data from: Bjerke, I. E et al. (2025). Distribution of calbindin-positive neurons in the normal adult mouse brain (v2) [Data set]. EBRAINS. https://doi.org/10.25493/QVCB-Y3G
+**Data from**: Bjerke, I. E et al. (2025). Distribution of calbindin-positive neurons in the normal adult mouse brain (v2) [Data set]. EBRAINS. https://doi.org/10.25493/QVCB-Y3G
 
 
 **How to use WebAlign?**
