@@ -1,33 +1,38 @@
 **WebAlign**
 ============
 
-WebAlign is a tool for registering the brain sections to a reference brain atlas. Different experimental datasets can be registered to the same atlas allowing spatial integration, analysis and navigation within a standardised coordinate system. 
+WebAlign is used to register brain sections to a reference brain atlas using linear registration methods. This involves two key steps:
 
-How to use WebAlign?
+* Establish the series cutting angle and apply this to all the sections. The angle is usually stable across the series unless sectioning is performed in two or more blocks.
+* Establish the position of each section in the brain and adjust the size and position of the atlas overlay to match the underlying section. 
+
+Once the series is correctly registered to the atlas using WebAlign, WebWarp can be used to make in-plane nonlinear refinements to match anatomical landmarks. 
+
+
+**How to use WebAlign?**
 ---------------------------------------------
 
-1. Open WebAlign by selecting "Continue to WebAlign".
+1. Open WebAlign by selecting "Continue to WebAlign" in your project. 
 
-.. tip::  It is recommended to register one section in the beginning of the series and one section in the end of the series as the first step in the registration process. This is because WebAlign automatically updates the position of remaining sections based on the section numbering, making the registration process more efficient.   
+.. image:: images/navigate_to_apps.png 
 
 2. Select the image to register in the filmstrip. The Main Window shows the selected image with an atlas overlay. The colour of the image border reflects the current registration status (white - not registered, orange - in progress, green - registration saved).
 
+.. tip::  It is recommended to register one section in the beginning of the series and one section in the end of the series as the first step in the registration process. This is because WebAlign automatically updates the position of remaining sections based on the section numbering, making the registration process more efficient.  
+
 .. tip:: Use the dropdown menu in the Control panel to change the plane through the atlas template from the default coronal plane to a sagittal or horizontal plane to best match your sections.
 
-2. To register a section, move the plane through the atlas to the section's approximate position using the yellow dots in the sagittal, horizontal and coronal windows (Navigation panel). The main window should now show an atlas overlay that roughly matches the appearance of your section.
+3. To register a section, move the plane through the atlas to the section's approximate position using the yellow dots in the sagittal, horizontal and coronal windows (Navigation panel). The main window should now show an atlas overlay that roughly matches the appearance of your section.
 
-3.  The main window supports mouse drag in multiple modes for adjusting the atlas overlay to match the outer borders as well as anatomical landmarks within the section (both translation and transformation are supported).  
+4.  The main window supports mouse drag in multiple modes for adjusting the atlas overlay to match the outer borders as well as anatomical landmarks within the section (both translation and transformation are supported).  
 
 * Markers are positioned using the "Space bar". Markers are crosses initially and are the fix point of transformations to the atlas overlay. The "Esc key" can be used to remove the marker (in full screen mode the "Esc key" escapes full screen). 
 * If there is no marker, or the marker is a cross, mouse drag slides the cut in its plane (translation).
 * With a cross in place, press the Up and Down arrows or Left and Right arrows to activate stretch mode (a line will appear). Adjust the atlas overlay to match your section. The panel can be resized towards the left (common border with Control Panel) and towards the bottom (common border with Filmstrip). 
 
-.. note::
-  WebAlign performs linear registration only. The registration can be further refined using the WebWarp app.
+5. Once a section is registered to a satisfactory standard, save its position by pressing "Save". The registration is then propagated to the remaining sections to help with scaling (visible also in the filmstrip).
 
-6. Once a section is registered to a satisfactory standard, save its position by pressing "Save". The registration is then propagated to the remaining sections to help with scaling (visible also in the filmstrip).
-
-7. Go through all the sections, refining the positions and cutting angles, and save the final registrations. Registration is complete when all the images have a green outer border. 
+6. Go through all the sections, refining the positions and cutting angles, and save the final registrations. Registration is complete when all the images have a green outer border. 
 
 .. note::
   When jumping from one section to the other, wait a few seconds for the image to load.
@@ -35,7 +40,7 @@ How to use WebAlign?
 .. note::
   The "undo" button allows you to go back to the saved position if necessary.
 
-8. To complete the registration, apply fine adjustments with `WebWarp <https://quint-webtools.readthedocs.io/en/latest/WebWarp.html>`_. This step is optional. 
+7. To complete the registration, apply fine adjustments with `WebWarp <https://quint-webtools.readthedocs.io/en/latest/WebWarp.html>`_. This step is optional. 
 
 Short keys
 ----------------

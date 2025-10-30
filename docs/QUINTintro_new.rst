@@ -1,7 +1,9 @@
 **What is the QUINT online workflow?**
 ======================================
    
-The QUINT online workflow supports the analysis of 2D rodent brain microscopy data, allowing brain-wide mapping and regional quantification using a reference brain atlas. The workflow is used to quantify cells and establish maps of cell distribution, receptor densities, connectivity patterns or pathological protein accumulation in the brain. It combines the use of a series of web-applications integrated in an online platform, accessible through EBRAINS. 
+The QUINT online workflow supports the analysis of 2D rodent brain microscopy data, allowing brain-wide mapping and regional quantification using a reference brain atlas. The workflow is used to quantify cells and establish maps of cell distribution, receptor densities, connectivity patterns or pathological protein accumulation in the brain. Different experimental datasets can be registered to the same atlas allowing spatial integration, analysis and navigation within a standardised coordinate system. 
+
+The QUINT online workflow combines the use of a series of web-applications integrated in an online platform, accessible through EBRAINS. 
 
 .. image:: images/QUINT_withexample.png
 
