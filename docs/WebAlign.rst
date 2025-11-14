@@ -1,10 +1,10 @@
 **WebAlign**
 ============
 
-WebAlign is used to register brain sections to a reference brain atlas using linear registration methods. It involves two key steps:
+WebAlign is used to register brain sections to a reference brain atlas using a linear registration method. It involves two key steps:
 
-* Establish the series cutting angle, and apply this to the atlas for all the sections. The angle is usually stable across the series unless sectioning is performed in two or more blocks.
-* Establish the position of each section in the brain and adjust the size and position of the atlas overlay to match the underlying section. 
+* Establish the cutting angle through the atlas for the sections using `key anatomical landmarks <https://zenodo.org/records/7575515>`_. Apply this to the atlas for all the sections. The angle is usually stable across the series unless sectioning is performed in two or more blocks.
+* Establish the position of each section in the atlas and adjust the size and position of the atlas overlays to match the underlying sections. 
 
 Once the atlas is correctly registered to the sections using WebAlign, WebWarp can be used to make in-plane nonlinear refinements to match anatomical landmarks. 
 
@@ -20,7 +20,7 @@ Once the atlas is correctly registered to the sections using WebAlign, WebWarp c
 
 .. image:: images/navigate_to_apps.png 
 
-2. Select the image to register in the filmstrip. The Main Window shows the selected image with an atlas overlay. The colour of the image border reflects the current registration status (white - not registered, orange - in progress, green - registration saved).
+2. Select the image to register in the filmstrip. The Main Window shows the selected image with an atlas overlay. The colour of the image border reflects the current registration status (white - not registered, orange - in progress, green - registered).
 
 .. tip::  It is recommended to register one section in the beginning of the series and one section in the end of the series as the first step in the registration process. This is because WebAlign automatically updates the position of remaining sections based on the section numbering, making the registration process more efficient.  
 
@@ -83,25 +83,30 @@ Control panel
    
    * - **Button**   
      - **Function**  
-   * -   Store     
-     -   Store the current alignment and propagate to unaligned sections (Note this does not save the series to your bucket)
-   * -   Restore 
-     -   Reset the current alignment to the last stored position
+   * -   Save     
+     -   Save the current alignment to the bucket and propagate to unaligned sections
+   * -   Export overlays
+     -   Generates a series of .flat files (for Nutil or similar utility), and stores them into a .zip file in the bucket
+   * -   Undo 
+     -   Undo the current alignment to the last stored position
    * -   Clear
      -   Reset the current alignment to the default position
+   * -   Approve
+     -   Mark up the the current alignment as complete (green)
+   * -   Center
+     -   Adjust and center the cutting plane through the atlas to match the orientation selected in the drop-down menu (coronal, horizontal or sagittal)
    * -   Overlay Slider
      -   Opacity of the atlas overlay, when fully opaque, it becomes an outline
    * -   Overlay color
      -   The outline color
    * -   Filmstrip slider and color
      -   The above settings, applied to the filmstrip
-   * -   Save to bucket
-     -   Save the series to your bucket (and overwrite the existing file)
-   * -   Export overlays
-     -   Generates a series of .flat files (for Nutil or similar utility), and stores them into a .zip file in the bucket (re-using the name of the series descriptor, e.g. series13.json will export series13.zip)
+   * -   Diagrams
+     -   Open a new window with diagrams displaying the relative position of the sections in atlas space, section spacing, primary and secondary angle.     
+
      
 .. note:: 
- The right border of the control panel can be dragged horizontally, allowing to resize the panel and the main view
+ The border of the control panel can be dragged horizontally, allowing resizing of the panel and the main view.
 
 Filmstrip
 --------------
