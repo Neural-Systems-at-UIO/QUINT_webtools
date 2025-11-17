@@ -10,7 +10,7 @@ WebWarp is used to make nonlinear refinements to the atlas registration achieved
 **How to access WebWarp?**
 ----------------------------
 
-In your project, Open WebAlign by selecting "Continue to WebAlign". 
+In your project, Open WebWarp by selecting "Continue to WebWarp". 
 
 .. image:: images/navigate_to_apps.png 
 
@@ -28,7 +28,7 @@ In your project, Open WebAlign by selecting "Continue to WebAlign".
  
  Try to keep the number of markers to a minimum. 
 
-5. Once you are satisfied with the result, press "Save". Export the atlas overlays with the "Export overlays" button. 
+5. Once you are satisfied with the result, press "Save". 
 
 6. You are now ready for the next step of the workflow: extract your features with `WebIlastik <https://quint-webtools.readthedocs.io/en/latest/WebIlastik.html>`_.
  
