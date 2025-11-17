@@ -29,7 +29,7 @@ Once you are logged in to the online Workbench you are ready to start your analy
 
 1. **Register your images to the atlas**: use `WebAlign <https://quint-webtools.readthedocs.io/en/latest/WebAlign.html>`_ first, followed by `WebWarp <https://quint-webtools.readthedocs.io/en/latest/WebWarp.html>`_. 
 2. **Extract the features to be quantified**: use `WebIlastik <https://quint-webtools.readthedocs.io/en/latest/WebIlastik.html>`_ or upload your own image segmentations created using alternative software. 
-3. **Perform quantification**: use `NutilWeb <https://quint-webtools.readthedocs.io/en/latest/NutilWeb.html>`_. 
+3. **Perform quantification**: use `WebNutil <https://quint-webtools.readthedocs.io/en/latest/NutilWeb.html>`_. 
 4. **View and explore your results**: use the plotting Sandbox and `MeshView <https://quint-webtools.readthedocs.io/en/latest/MeshviewWeb.html>`_.
 
  
