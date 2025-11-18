@@ -1,22 +1,24 @@
 **How to access**
 ===================
 
-The QUINT online workflow is under development. To access an beta version, go to the `Rodent Workbench <https://rodentworkbench.apps.ebrains.eu/>`_, register for an `EBRAINS account <https://www.ebrains.eu/page/sign-up>`_, and login. As it is currently under development, use for testing purposes only. Your feedback is much appreciated and will help improve the user experience. 
+The QUINT online workflow is under development. To access a beta version, go to the `QUINT online workflow <https://quint-online.apps.ebrains.eu/>`_, register for an `EBRAINS account <https://www.ebrains.eu/page/sign-up>`_, and login. As it is currently under development, use for testing purposes only. Your feedback is much appreciated and will help improve the user experience. 
 
 .. tip::   
-   A mature version of the QUINT workflow is available through the use of a series of standalone desktop applications, `learn more here <https://quint-workflow.readthedocs.io/en/latest/>`_ (QuickNII, VisuAlign, ilastik and Nutil). QUINT online is being developed to provide tighter integration of the tools and benefits such as shareable microscopy viewer links and automated plotting.
+   A mature version of the QUINT workflow is available through the use of a series of standalone desktop applications, `learn more here <https://quint-workflow.readthedocs.io/en/latest/>`_ (QuickNII, VisuAlign, ilastik and Nutil). QUINT online is being developed to provide tighter integration of the tools and benefits such as microscopy viewer links and automated plotting.
 
 **System requirements**
 ---------------------
 
-The QUINT online workflow is accessible using the web browsers: Firefox, Edge and Chrome.
+The QUINT online workflow is accessible with an EBRAINS account using the web browsers: Firefox, Edge and Chrome.
 
 **Conditions of use**
 ------------------
 
 **Licence:** Source code: MIT License.
 
-**Citation**: 
+**Citation**: An article about the QUINT online workflow is in preparation. Until this is published, please cite our latest article about our software and pipelines (Puchades et al, 2025) for use of our online tools. For use of our standalone software, please cite the relevant articles listed below. 
+
+All reference atlases used should also be cited.  
 
 **Latest article about our software and pipelines**
 

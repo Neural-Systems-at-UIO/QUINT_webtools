@@ -10,7 +10,7 @@ The QUINT online workflow combines the use of a series of web-applications integ
 **Steps in the QUINT online workflow:**
 
 1. **Prepare image for upload**.
-2. **Upload the images** to the workbench and convert them to the DZI format required by the tools using our conversion tool.
+2. **Upload the images** to the workbench and convert them to the DZI format required by the tools.
 3. **Register the images to an atlas** in two steps using *WebAlign* (linear registration) and *WebWarp* (nonlinear refinement).  
 4. **Extract features** to be quantified by segmentation using *Webilastik* or upload your own segmentations. 
 5. **Quantify features** in atlas regions using *WebNutil*.
@@ -28,17 +28,11 @@ The QUINT online workflow combines the use of a series of web-applications integ
 **What is the output of the workflow?**
 ---------------------------------
 
-The QUINT workflow generates reports with feature counts and area fraction in reference atlas regions, and point clouds that can be used to visualise the features in 3D reference space using our online Meshview Atlas Viewer.  
+The QUINT online workflow generates a series of reports in CSV and JSON format. These contain feature counts and area fraction in reference atlas regions, and atlas coordinates that can be used to visualise the features in 3D reference space using our Meshview Atlas Viewer. The results can be downloaded or explored using the plotting Sandbox. 
 
 .. image:: images/results.PNG
 
-**How to access the QUINT online workflow?**
-----------------------------------------
 
-The QUINT online workflow is under development. To access an alpha version, go to the `Rodent Workbench <https://rodentworkbench.apps.ebrains.eu/>`_, register for an EBRAINS account, and login. As it is currently under development, use for testing purposes only. Your feedback is much appreciated and will help improve the user experience. 
-
-.. tip::   
-   A mature version of the QUINT workflow is available through the use of a series of standalone desktop applications, `learn more here <https://quint-workflow.readthedocs.io/en/latest/>`_ (QuickNII, VisuAlign, ilastik and Nutil). QUINT online is being developed to provide tighter integration of the tools and benefits such as shareable microscopy viewer links and automated plotting.
 
 
 
