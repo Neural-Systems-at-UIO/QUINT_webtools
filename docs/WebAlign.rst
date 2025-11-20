@@ -121,3 +121,8 @@ The rectangle of the current cut is projected on each standard plane as a yellow
 Drag the midpoint around to move the cut.
 
 Drag anywhere else to rotate the cut (inside the given standard plane, around the midpoint)
+
+Diagrams
+-----------
+
+Press the "diagram" button to display graphs showing the relative positions of the sections in atlas space, the spacing of the sections relative to each other, and the primary and secondary angles applied to the sections. These can be used as a guide in the anchoring progress to ensure sections are registered in the correct order, that they do not overlap each other in atlas space, that the angles are consistently applied to all the sections. 
