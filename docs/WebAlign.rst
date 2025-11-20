@@ -20,7 +20,7 @@ Once the atlas is correctly registered to the sections using WebAlign, WebWarp c
 
 .. image:: images/navigate_to_apps.png 
 
-2. Select the image to register in the filmstrip. The Main Window shows the selected image with an atlas overlay. The colour of the image border reflects the current registration status (white - not registered, orange - in progress, green - registered).
+2. Select the section to register in the filmstrip (start with the first and last sections in the series, see tip below). The Main Window shows the selected image with an atlas overlay. The colour of the image border reflects the current registration status (white - not registered, orange - in progress, green - registered).
 
 .. tip::  It is recommended to register one section in the beginning of the series and one section in the end of the series as the first step in the registration process. This is because WebAlign automatically updates the position of remaining sections based on the section numbering, making the registration process more efficient.  
 
@@ -34,7 +34,7 @@ Once the atlas is correctly registered to the sections using WebAlign, WebWarp c
 * If there is no marker, or the marker is a cross, mouse drag slides the cut in its plane (translation).
 * With a cross in place, press the Up and Down arrows or Left and Right arrows to activate stretch mode (a line will appear). Adjust the atlas overlay to match your section. The panel can be resized towards the left (common border with Control Panel) and towards the bottom (common border with Filmstrip). 
 
-5. Once a section is registered to a satisfactory standard, save its position by pressing "Save". The registration is then propagated to the remaining sections to help with scaling (visible also in the filmstrip).
+5. Once a section is registered to a satisfactory standard, save its position by pressing "Save". The registration is then propagated to the remaining sections to help with scaling. To mark up the registration as completed, press "Approve". This will change the registration status from orange (in progress) to green (registered). Note that this is for your records only. The most important part is to press "Save".  
 
 6. Go through all the sections, refining the positions and cutting angles, and save the final registrations. Registration is complete when all the images have a green outer border. 
 
