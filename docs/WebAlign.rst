@@ -1,10 +1,10 @@
 **WebAlign**
 ============
 
-WebAlign is used to register brain sections to a reference brain atlas using a linear registration method. It involves two key steps:
+WebAlign is used to register brain sections to a reference brain atlas using a linear registration method. This involves two key steps:
 
-* Establish the cutting angle through the atlas for the sections using `key anatomical landmarks <https://zenodo.org/records/7575515>`_. Apply this to the atlas for all the sections. The angle is usually stable across the series unless sectioning is performed in two or more blocks.
-* Establish the position of each section in the atlas and adjust the size and position of the atlas overlays to match the underlying sections. 
+1. First, establish the series cutting angle using `key anatomical landmarks <https://zenodo.org/records/7575515>`_. The angle is usually stable across the series unless sectioning is performed in two or more blocks. Once the angle is established, adjust the plane through the atlas to match this angle for all the sections. 
+2. Second, manually register each section to the atlas by etablishing its position and then adjusting the size and position of the atlas overlays to match the underlying section. 
 
 Once the atlas is correctly registered to the sections using WebAlign, WebWarp can be used to make in-plane nonlinear refinements to match anatomical landmarks. 
 
@@ -34,7 +34,7 @@ Once the atlas is correctly registered to the sections using WebAlign, WebWarp c
 * If there is no marker, or the marker is a cross, mouse drag slides the cut in its plane (translation).
 * With a cross in place, press the Up and Down arrows or Left and Right arrows to activate stretch mode (a line will appear). Adjust the atlas overlay to match your section. The panel can be resized towards the left (common border with Control Panel) and towards the bottom (common border with Filmstrip). 
 
-5. Once a section is registered to a satisfactory standard, save its position by pressing "Save". The registration is then propagated to the remaining sections to help with scaling. To mark up the registration as completed, press "Approve". This will change the registration status from orange (in progress) to green (registered). Note that this is for your records only. The most important part is to press "Save".  
+5. Once a section is registered to a satisfactory standard, save its position by pressing "Save". The registration is then propagated to the remaining sections to help with scaling. To mark up the registration as completed, press "Approve". This will change the registration status from orange (in progress) to green (registered). Note that "Approve" records the registration status for your records, but does not save the results.  
 
 6. Go through all the sections, refining the positions and cutting angles, and save the final registrations. Registration is complete when all the images have a green outer border. 
 
