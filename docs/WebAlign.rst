@@ -4,7 +4,7 @@
 WebAlign is used to register brain sections to a reference brain atlas using a linear registration method. This involves two key steps:
 
 1. First, establish the series cutting angle using `key anatomical landmarks <https://zenodo.org/records/7575515>`_. The angle is usually stable across the series unless sectioning is performed in two or more blocks. Once the angle is established, adjust the plane through the atlas to match this angle for all the sections. 
-2. Second, manually register each section to the atlas by etablishing its position and then adjusting the size and position of the atlas overlays to match the underlying section. 
+2. Second, manually register each section to the atlas by etablishing its position and then adjusting the size and position of the atlas overlay to match the underlying section. 
 
 Once the atlas is correctly registered to the sections using WebAlign, WebWarp can be used to make in-plane nonlinear refinements to match anatomical landmarks. 
 
@@ -20,7 +20,7 @@ Once the atlas is correctly registered to the sections using WebAlign, WebWarp c
 
 .. image:: images/navigate_to_apps.png 
 
-2. Select the atlas orientation best fitting your sections using the drop-down menu in the Control Panel (coronal, sagittal or horizontal). This adjusts the plane through the atlas template for all the sections.
+2. Select the atlas orientation that best fits your sections using the drop-down menu in the Control Panel (coronal, sagittal or horizontal). This adjusts the plane through the atlas template for all the sections.
 
 3. Select a section to register in the filmstrip. Start with the first and last sections in the series (see tip below). The Main Window shows the selected image with an atlas overlay. The colour of the image border reflects the registration status (white - not registered, orange - in progress, green - registered).
 
@@ -34,11 +34,11 @@ Once the atlas is correctly registered to the sections using WebAlign, WebWarp c
 * If there is no marker, or the marker is a cross, mouse drag slides the cut in its plane (translation).
 * With a cross in place, press the Up and Down arrows or Left and Right arrows to activate stretch mode (a line will appear). Adjust the atlas overlay to match your section. The panel can be resized towards the left (common border with Control Panel) and towards the bottom (common border with Filmstrip). 
 
-6. Once a section is registered to a satisfactory standard, tick the box on the section to save the registration. This will change the registration status from orange (in progress) to green (registered). The registration is automatically propagated to the remaining sections to help with scaling.  
+6. Once a section is registered to a satisfactory standard, tick the box in the filmstrip to save the registration. This will change the registration status from orange (in progress) to green (registered). This automatically propagates the registration to the remaining sections to help with scaling.  
 
-7. Work your way through sections with `key anatomical landmarks <https://zenodo.org/records/7575515>`_ to establish the series cutting angles. Once the angle is established, apply this to all the registered sections. The angles will automatically propagate to remaining sections.  
+7. To establish the series cutting angle, look through sections with `key anatomical landmarks <https://zenodo.org/records/7575515>`_. Once the angle is established, apply this to all the registered sections. The angles will automatically propagate to remaining sections.  
 
-8. Go through all the sections, refining the positions and cutting angles, ticking the box for each section to save the registrations. Registration is complete when all the images have a green outer border. 
+8. Go through all the sections, scaling and refining the positions of the atlas overlays, and ticking the boxes on the filmstrip to save the registrations. Registration is complete when all the images have a green outer border. 
 
 .. note::
   When jumping from one section to the other, wait a few seconds for the image to load.
