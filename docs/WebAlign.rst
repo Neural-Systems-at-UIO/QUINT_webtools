@@ -20,23 +20,25 @@ Once the atlas is correctly registered to the sections using WebAlign, WebWarp c
 
 .. image:: images/navigate_to_apps.png 
 
-2. Select the section to register in the filmstrip (start with the first and last sections in the series, see tip below). The Main Window shows the selected image with an atlas overlay. The colour of the image border reflects the current registration status (white - not registered, orange - in progress, green - registered).
+2. Select the atlas orientation best fitting your sections using the drop-down menu in the Control Panel (coronal, sagittal or horizontal). This adjusts the plane through the atlas template for all the sections.
+
+3. Select a section to register in the filmstrip. Start with the first and last sections in the series (see tip below). The Main Window shows the selected image with an atlas overlay. The colour of the image border reflects the registration status (white - not registered, orange - in progress, green - registered).
 
 .. tip::  It is recommended to register one section in the beginning of the series and one section in the end of the series as the first step in the registration process. This is because WebAlign automatically updates the position of remaining sections based on the section numbering, making the registration process more efficient.  
 
-.. tip:: Use the dropdown menu in the Control panel to change the plane through the atlas template from the default coronal plane to a sagittal or horizontal plane to best match your sections.
+4. To register a section, move the plane through the atlas to the section's approximate position using the yellow dots in the sagittal, horizontal and coronal windows (Navigation panel). The main window should now show an atlas overlay that roughly matches the appearance of your section.
 
-3. To register a section, move the plane through the atlas to the section's approximate position using the yellow dots in the sagittal, horizontal and coronal windows (Navigation panel). The main window should now show an atlas overlay that roughly matches the appearance of your section.
-
-4.  The main window supports mouse drag in multiple modes for adjusting the atlas overlay to match the outer borders as well as anatomical landmarks within the section (both translation and transformation are supported).  
+5.  The main window supports mouse drag in multiple modes for adjusting the atlas overlay to match the outer borders as well as anatomical landmarks within the section (both translation and transformation are supported).  
 
 * Markers are positioned using the "Space bar". Markers are crosses initially and are the anchor point of transformations to the atlas overlay. The "Esc key" can be used to remove the marker (in full screen mode the "Esc key" escapes full screen). 
 * If there is no marker, or the marker is a cross, mouse drag slides the cut in its plane (translation).
 * With a cross in place, press the Up and Down arrows or Left and Right arrows to activate stretch mode (a line will appear). Adjust the atlas overlay to match your section. The panel can be resized towards the left (common border with Control Panel) and towards the bottom (common border with Filmstrip). 
 
-5. Once a section is registered to a satisfactory standard, save its position by pressing "Save". The registration is then propagated to the remaining sections to help with scaling. To mark up the registration as completed, press "Approve". This will change the registration status from orange (in progress) to green (registered). Note that "Approve" records the registration status for your records, but does not save the results.  
+6. Once a section is registered to a satisfactory standard, tick the box on the section to save the registration. This will change the registration status from orange (in progress) to green (registered). The registration is automatically propagated to the remaining sections to help with scaling.  
 
-6. Go through all the sections, refining the positions and cutting angles, and save the final registrations. Registration is complete when all the images have a green outer border. 
+7. Work your way through sections with `key anatomical landmarks <https://zenodo.org/records/7575515>`_ to establish the series cutting angles. Once the angle is established, apply this to all the registered sections. The angles will automatically propagate to remaining sections.  
+
+8. Go through all the sections, refining the positions and cutting angles, ticking the box for each section to save the registrations. Registration is complete when all the images have a green outer border. 
 
 .. note::
   When jumping from one section to the other, wait a few seconds for the image to load.
