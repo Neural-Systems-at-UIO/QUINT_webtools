@@ -21,14 +21,14 @@ In your project, Open WebWarp by selecting "Continue to WebWarp".
 2. To make an adjustment to the atlas overlay, place a marker on the part of the atlas that you wish to adjust by pressing the space bar. Adjustments are made by dragging the marker using the mouse cursor.
 3. To remove a marker, position the mouse cursor over the marker and press Delete or Backspace. 
 4. Markers can also be used as anchor points, fixing in place parts of the registration that are correct. 
-4. To view the transformations applied, go to “Settings” and “show triangles”. 
+5. To view the transformations applied, go to “Settings” and “show triangles”. 
 
 .. tip::
  A good strategy is to place markers around the contour of the section first (use them as anchors), and then proceed by refining the inner parts.
  
  Try to keep the number of markers to a minimum. 
 
-5. Once you are satisfied with the result, press "Save". 
+6. Once you are satisfied with the result, tick the checkbox on the section. This will save your markers.  
 
-6. You are now ready for the next step of the workflow: extract your features with `WebIlastik <https://quint-webtools.readthedocs.io/en/latest/WebIlastik.html>`_.
+7. You are now ready for the next step of the workflow: extract your features with `WebIlastik <https://quint-webtools.readthedocs.io/en/latest/WebIlastik.html>`_.
  
