@@ -1,4 +1,4 @@
-**Meshview**
+**MeshView**
 =========================
 
  MeshView is a web application for real-time 3D display of surface mesh data representing structural parcellations from a volumetric atlas, such as the Waxholm Space Atlas of the Sprague Dawley Rat Brain. Once you have completed your analysis using WebNutil, you will have the option to display a point cloud corresponding to your labelling in a relevant reference atlas. 
