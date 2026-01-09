@@ -18,3 +18,5 @@ WebNutil is used to perform the quantification step in the QUINT online workflow
 3. Once the atlas-registration step is complete and segmentations are available for all your sections (either created with webilastik or uploaded manually), you are ready to perform WebNutil analysis. To do this, select the object colour to quantify in your segmentations in the right hand panel and press "Run Analysis". The results will automatically appear in the results panel when the analysis has completed (this may take some time). 
 
 4. Once analysis is complete, download your results and explore the results interactively using the plotting Sandbox and MeshView atlas viewer. 
+
+.. image:: images/Available_results.png
