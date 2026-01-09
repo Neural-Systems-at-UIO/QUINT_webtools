@@ -9,7 +9,7 @@ Welcome to your QUINT online workspace! This is where you'll manage your project
 Your online workspace provides a centralised location to:
 
 * Organise your research projects in EBRAINS infrastructure
-* Upload and manage brain image data
+* Upload and manage brain section image data
 * Track analysis progress
 * Access your results and outputs
 
