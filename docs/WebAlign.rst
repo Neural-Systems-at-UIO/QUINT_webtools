@@ -34,7 +34,7 @@ Once the atlas is correctly registered to the sections using WebAlign, WebWarp c
 * If there is no marker, or the marker is a cross, mouse drag slides the cut in its plane (translation).
 * With a cross in place, press the Up and Down arrows or Left and Right arrows to activate stretch mode (a line will appear). Adjust the atlas overlay to match your section. The panel can be resized towards the left (common border with Control Panel) and towards the bottom (common border with Filmstrip). 
 
-6. Once a section is registered to a satisfactory standard, tick the box in the filmstrip to save the registration. This will change the registration status from orange (in progress) to green (registered). This automatically propagates the registration to the remaining sections to help with scaling.  
+6. **Once a section is registered to a satisfactory standard, tick the box in the filmstrip to save the registration**. This will change the registration status from orange (in progress) to green (registered). This automatically propagates the registration to the remaining sections to help with scaling.  
 
 7. To establish the series cutting angle, look through sections with `key anatomical landmarks <https://zenodo.org/records/7575515>`_. Once the angle is established, apply this to all the registered sections. The angles will automatically propagate to remaining sections.  
 
@@ -85,26 +85,28 @@ Control panel
    
    * - **Button**   
      - **Function**  
-   * -   Save     
-     -   Save the current alignment to the bucket and propagate to unaligned sections
-   * -   Export overlays
-     -   Generates a series of .flat files (for Nutil or similar utility), and stores them into a .zip file in the bucket
-   * -   Undo 
-     -   Undo the current alignment to the last stored position
-   * -   Clear
-     -   Reset the current alignment to the default position
-   * -   Approve
-     -   Mark up the the current alignment as complete (green)
-   * -   Center
-     -   Adjust and center the cutting plane through the atlas to match the orientation selected in the drop-down menu (coronal, horizontal or sagittal)
+   * -   Pan/Rotate step     
+     -   Allow to change step size for pan or rotate functions
    * -   Overlay Slider
      -   Opacity of the atlas overlay, when fully opaque, it becomes an outline
    * -   Overlay color
      -   The outline color
    * -   Filmstrip slider and color
      -   The above settings, applied to the filmstrip
+   * -   Segmentation/Template     
+     -   Allow to switch between visualisation of the atlas segmentation or the atlas template
+   * -   Undo 
+     -   Undo the current alignment to the last stored position
+   * -   Clear
+     -   Reset the current alignment to the default position
+   * -   Center
+     -   Adjust and center the cutting plane through the atlas to match the orientation selected in the drop-down menu (coronal, horizontal or sagittal)
+   * -   Angles
+     -   Switch between Coronal/Sagittal and Horizontal planes and displays angle values. Angles are color coded to their respective planes.
+   * -   Apply to all
+     -   applies chosen angles to all sections in the series
    * -   Diagrams
-     -   Open a new window with diagrams displaying the relative position of the sections in atlas space, section spacing, primary and secondary angle.     
+     -   Open a new window with diagrams displaying the relative position of the sections in atlas space, section spacing, primary and secondary angle.      
 
      
 .. note:: 
@@ -112,7 +114,8 @@ Control panel
 
 Filmstrip
 --------------
-Drag horizontally to see series, click on a section in order to load it into the main view. The top border of the filmstrip can be dragged vertically, allowing to resize the panel and the main view
+Drag horizontally to see series, click on a section in order to load it into the main view. **Save your registration by clicking on the small square on top left**.
+The top border of the filmstrip can be dragged vertically, allowing to resize the panel and the main view.
 
 Navigation panel
 ----------------------
