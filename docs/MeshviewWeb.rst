@@ -10,7 +10,7 @@
 2. To display your points, deselect all the structures by sliding the "All" sliders to the left. Then display a transparent brain outline by moving the "root" sliders to the middle. 
 3. Regions can be switched on and off by adjusting the relevant sliders. 
 
-
+For more details about MeshView see here: https://meshview-for-brain-atlases.readthedocs.io/en/latest/ 
 
 
 
