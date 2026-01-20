@@ -32,3 +32,4 @@ In your project, Open WebWarp by selecting "Continue to WebWarp".
 
 7. You are now ready for the next step of the workflow: extract your features with `WebIlastik <https://quint-webtools.readthedocs.io/en/latest/WebIlastik.html>`_.
  
+More details about WebWarp can be found here: https://webwarp.readthedocs.io/en/latest/
