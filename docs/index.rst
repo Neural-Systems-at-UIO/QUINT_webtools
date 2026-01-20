@@ -7,6 +7,7 @@ QUINT web-tools
    
    QUINTintro_new
    Publications
+   Acknowledgements
    Contact
 
 
