@@ -6,7 +6,7 @@ The QUINT workflow comprises a suite of tools designed to support atlas-based qu
 - WebAlign (Semi-automated Linear Atlas-Registration)
 - WebWarp (Nonlinear Refinement of Atlas-Registration) 
 - WebIlastik (Feature Extraction)
-- Nutil (Regional quantification and coordinate extraction)
+- WebNutil (Regional quantification and coordinate extraction)
 - Meshview (3D Atlas Viewer)
 
 # Documentation
