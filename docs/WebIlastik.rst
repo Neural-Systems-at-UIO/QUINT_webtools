@@ -26,4 +26,4 @@ How to train your classifier?
 
 .. image:: images/Prediction.PNG
   :align: center
-  :width: 400
+  :width:
