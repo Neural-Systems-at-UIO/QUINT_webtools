@@ -24,6 +24,6 @@ How to train your classifier?
 
 8. Once you're happy with the classifier, press "Segment all images".
 
-.. image:: images/Prediction.PNG
+.. image:: images/Prediction.png
   :align: center
   :width:
