@@ -21,4 +21,4 @@ WebNutil is used to perform the quantification step in the QUINT-online workflow
 
 .. image:: images/Available_results.png
 
-.. image:: images/Plot.PNG
+.. image:: images/Plot.png
