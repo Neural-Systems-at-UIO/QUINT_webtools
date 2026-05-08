@@ -19,13 +19,6 @@ How to train your classifier?
 5. In "Features", select the features to include in the algorithm (all the features are included by default). While it is possible to limit the features and scales used in the model, this is not recommended. 
 6. Use "Tools" to train your machine-learning model. Select "Pan" to navigate the image (use the arrow to navigate and the mouse wheel to Zoom in and out). Select "Brush" to annotate your image. Select "Foreground" and "Background"  and annotate example pixels of each class. 
 7. Once you've added annotations for each class you're ready to train the classifier. Select "Train classifier" to activate the model. This will automatically display predictions on the image. Continue adding annotations until you are satisfied with the predictions. To inspect the classifier on a new image, swithc to a new image using the Quick-Switch menu. It is possible to train the algorithm using multiple images. 
-
-.. image:: images/Training.PNG
-  :align: center
-  :width: 400
-
 8. Once you're happy with the classifier, press "Segment all images" and wait until the process has completed (this will take some time). Once the files appear in the WebNutil app, you can inspect the result using the viewer ("View").
 
-.. image:: images/Prediction.png
-  :align: center
-  :width:
+
