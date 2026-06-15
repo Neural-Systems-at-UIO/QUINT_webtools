@@ -2,7 +2,7 @@ QUINT web-tools
 ====================
 
 .. toctree::
-   :caption: QUINT online workflow
+   :caption: QUINT-online
    :maxdepth: 3
    
    QUINTintro_new
