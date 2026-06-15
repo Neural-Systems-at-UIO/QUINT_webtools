@@ -67,7 +67,7 @@ html_logo = "QUINTonline.png"
 html_context = {
     'display_github': True,
     'github_user': 'Neural-Systems-at-UIO',
-    'github_repo': 'QuickNII',
+    'github_repo': 'QUINT_webtools',
     'github_version': 'master',
-    'conf_py_path': '/Docs/',
+    'conf_py_path': '/docs/',
 }
