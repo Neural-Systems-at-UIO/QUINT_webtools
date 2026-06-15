@@ -63,3 +63,11 @@ html_theme_options = {
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 html_logo = "QUINTonline.png"
+
+html_context = {
+    'display_github': True,
+    'github_user': 'Neural-Systems-at-UIO',
+    'github_repo': 'QuickNII',
+    'github_version': 'master',
+    'conf_py_path': '/Docs/',
+}
