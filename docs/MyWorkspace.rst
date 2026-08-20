@@ -6,6 +6,9 @@ Welcome to your QUINT-online workspace. This is where you'll manage your project
 **Getting Started with Your online Workspace**
 -----------------------------------
 
+Upon login the first time, your personal bucket space for storage will be created and each application will ask for consent for access. Acknowledge all these messages.
+The first time you create a project, it will require some time to appear in the project list. Wait a few seconds.
+
 Your online workspace provides a centralised location to:
 
 * Organise your data into projects.
