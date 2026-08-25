@@ -3,7 +3,7 @@
 
 Webilastik is an image classification and segmentation tool that works by supervised machine learning. It can be used to identify the features in your images to quantify using the QUINT workflow (for example, cells, receptors or a pathological marker). It is possible to skip this step and instead upload your own segmentations produced with an alternative software such as QuPath or the desktop version of ilastik.    
 
-.. image:: images/Training.PNG
+.. image:: images/Webilastik_UI_aug26.png
   :align: center
   :width: 400
 
