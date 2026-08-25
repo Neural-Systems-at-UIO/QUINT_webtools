@@ -38,7 +38,7 @@ Once the atlas is correctly registered to the sections using WebAlign, WebWarp c
 
 7. To establish the series cutting angle, look through sections with `key anatomical landmarks <https://zenodo.org/records/7575515>`_. Once the angle is established, apply this to all the registered sections. The angles will automatically propagate to remaining sections.  
 
-8. Go through all the sections, scaling and refining the positions of the atlas overlays, and ticking the boxes on the filmstrip to save the registrations. Registration is complete when all the images have a green outer border. You can save your registration in a format comptible with QuickNII and VisAlign by pressing the button on the left. The package will be downloaded as a zipped folder.
+8. Go through all the sections, scaling and refining the positions of the atlas overlays, and ticking the boxes on the filmstrip to save the registrations. Registration is complete when all the images have a green outer border. You can save your registration in a format compatible with QuickNII and VisAlign by pressing the button on the left. The package will be downloaded as a zipped folder.
 
 .. note::
   When jumping from one section to the other, wait a few seconds for the image to load.
