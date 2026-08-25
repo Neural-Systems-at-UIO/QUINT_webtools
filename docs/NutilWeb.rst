@@ -11,13 +11,17 @@ WebNutil is used to perform the quantification step in the QUINT-online workflow
 
 1. Navigate to WebNutil using the button in your project or using the WebNutil tab at the top of the screen.
  
-.. image:: images/WebNutil.png
+.. image:: images/WebNutil_Aug_26.png
 
 2. If you have used Webilastik to create segmentations, these will be visible in the middle panel. If you have created your own segmentations using an external software, upload these to WebNutil using the "upload segmentations" button.
 
 3. Once the atlas-registration step is complete and segmentations are available for all your sections (either created with webilastik or uploaded manually), you are ready to perform WebNutil analysis. To do this, select the object colour to quantify in your segmentations in the right hand panel. For segmentations created using Webilastik this is usually "Red" with RGB colour code: 255 0 0. For segmentations created using other software, select the RGB colour code of the objects you wish to quantify.
-4. Press "Run Analysis". The results will automatically appear in the results panel when the analysis has completed (this may take some time). 
-5. Once WebNutil analysis has completed, download your results, and explore the results interactively using the plotting Sandbox and MeshView atlas viewer. 
+
+4. Select if you want resulys for both hemispheres or only one. You can select the left or rifgt hemisphere by clicking on the brain icon. You can select an analysis on all regions or on only a few selected regions. In order to select regions, click inside the atlas region window. A list of regions will appear and you can select several of them.
+
+5. Press "Run Analysis". The results will automatically appear in the results panel when the analysis has completed (this may take some time). 
+
+6. Once WebNutil analysis has completed, download your results, and explore the results interactively using the plotting Sandbox and MeshView atlas viewer. 
 
 .. image:: images/Available_results.png
 
