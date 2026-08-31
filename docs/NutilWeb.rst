@@ -11,7 +11,7 @@ WebNutil is used to perform the quantification step in the QUINT-online workflow
 
 1. Navigate to WebNutil using the button in your project or using the WebNutil tab at the top of the screen.
  
-.. image:: images/WebNutil_Aug_26.png
+.. image:: images/WebNutil_Aug_31.png
 
 2. If you have used Webilastik to create segmentations, these will be visible in the middle panel. If you have created your own segmentations using an external software, upload these to WebNutil using the "upload segmentations" button.
 
