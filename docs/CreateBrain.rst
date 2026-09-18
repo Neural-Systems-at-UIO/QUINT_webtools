@@ -19,10 +19,11 @@ Once you are logged in to the online Workbench you are ready to start your analy
 ----------------------------
 
 1. In the online Workbench, create a new project, give it a name and then open the project.
-2. You are presented with an empty project. Press "Add /Edit series" to upload images series corresponding to each brain to the project. If you have images from more than one brain, upload them as separate image series (e.g. Brain 1, Brain 2, Brain 3, etc).  
-3. Once the image series is visible in the project, select it to reveal series information. Press "Convert" to convert the images to the DZI format required by the tools. Depending on the size of the images, this process may take some time. The conversion process will continue if you log out, so feel free to log out and log in at a later time. 
-4. Once the images are converted, select the reference atlas to use for analysis (mouse or rat) and press "Generate" to create a registration file. Alternatively, it is possible to upload a registration file from the QuickNII and VisuAlign software (in JSON format).
-5. You are now ready to start using the tools.  
+2. You are presented with an empty project. Press "Add /Edit series" to upload images series corresponding to each brain to the project. If you have images from more than one brain, upload them as separate image series (e.g. Brain 1, Brain 2, Brain 3, etc). 
+3. Once the image series is visible in the project, select it to reveal series information. Press "Convert" to convert the images to the DZI format required by the tools. Depending on the size of the images, this process may take some time. The conversion process will continue if you log out, so feel free to log out and log in at a later time.
+4. If you want to add images to an existing series, click on ADD/EDIT series, place cursor in the name window and click. The names of existing series appear and you can choose the series where additional images will be uploaded. Drag and drop the additional images. Convert these too.
+5. Once the images are converted, select the reference atlas to use for analysis (mouse or rat) and press "Generate" to create a registration file. Alternatively, it is possible to upload a registration file from the QuickNII and VisuAlign software (in JSON format).
+6. You are now ready to start using the tools.  
 
 .. image:: images/CreateBrain.PNG
 
